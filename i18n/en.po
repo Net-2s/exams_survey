@@ -358,8 +358,8 @@ msgstr "Photo engraving: Number of Film:  "
 
 #. module: its_mrp_product_survey_sample
 #: model:survey.label,value:its_mrp_product_survey_sample.specification_label_side_flat
-msgid "Plat"
-msgstr "Plat"
+msgid "Flat"
+msgstr "Flat"
 
 #. module: its_mrp_product_survey_sample
 #: model:survey.question,question:its_mrp_product_survey_sample.specification_question_quantity
@@ -368,13 +368,13 @@ msgstr "Quantity : "
 
 #. module: its_mrp_product_survey_sample
 #: model:survey.question,question:its_mrp_product_survey_sample.specification_question_reduction_b
-msgid "Reduction : B"
-msgstr "Reduction : B"
+msgid "fold-over : B"
+msgstr "fold-over : B"
 
 #. module: its_mrp_product_survey_sample
 #: model:survey.question,question:its_mrp_product_survey_sample.specification_question_reduction_d
-msgid "Reduction : D"
-msgstr "Reduction : D"
+msgid "fold-over : D"
+msgstr "fold-over : D"
 
 #. module: its_mrp_product_survey_sample
 #: model:survey.question,question:its_mrp_product_survey_sample.specification_question_rabat_g
@@ -383,8 +383,8 @@ msgstr "Reduction : G"
 
 #. module: its_mrp_product_survey_sample
 #: model:survey.question,question:its_mrp_product_survey_sample.specification_question_reduction_h
-msgid "Reduction : H"
-msgstr "Reduction : H"
+msgid "fold-over : H"
+msgstr "fold-over : H"
 
 #. module: its_mrp_product_survey_sample
 #: model:survey.question,question:its_mrp_product_survey_sample.specification_question_pantone_ref1

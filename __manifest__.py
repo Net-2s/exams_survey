@@ -1,21 +1,19 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "its_mrp_product_survey_sample",
+    'name': "ITS Survey Sample",
 
-    'summary': """
-        Short (1 phrase/line) summary of the module's purpose, used as
-        subtitle on modules listing or apps.openerp.com""",
+    'summary': """This module help embark a sample survey into the survey model""",
 
     'description': """
-        Long description of module's purpose
+        It can also be use to embark several survey which could be use
     """,
 
-    'author': "My Company",
-    'website': "http://www.yourcompany.com",
-    'category': 'Uncategorized',
-    'version': '11.0.0.1',
+    'author': "IT Service, Simo Larissa",
+    'website': "http://www.its-nh.com",
+    'category': 'survey',
+    'version': '11.1.0.0',
 
-    # any module necessary for this one to work correctly
+    # odoo dependencies
     'depends': ['base', 'survey'],
 
     # always loaded

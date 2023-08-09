@@ -7,7 +7,7 @@
             <field name="survey_id" ref="its_mrp_product_survey_sample.specification_sheet_sample"/>
         </record>
 
-        <!-- Creating questions for the header section-->
+        <!-- Creating questions for the shaping page-->
         <record id="specification_question_fixation" model="survey.question">
             <field name="question">How should the document be fixe ?</field>
             <field name="column_nb">12</field>
@@ -27,7 +27,7 @@
             <field name="page_id" ref="its_mrp_product_survey_sample.specification_shaping_page"/>
         </record>
         <record id="specification_question_stapling_number" model="survey.question">
-            <field name="question">Stapling Number : </field>
+            <field name="question">Stapling Number :</field>
             <field name="type">numerical_box</field>
             <field name="page_id" ref="its_mrp_product_survey_sample.specification_shaping_page"/>
         </record>
@@ -38,28 +38,28 @@
             <field name="page_id" ref="its_mrp_product_survey_sample.specification_shaping_page"/>
         </record>
         <record id="specification_question_from" model="survey.question">
-            <field name="question">FROM : </field>
+            <field name="question">FROM :</field>
             <field name="type">textbox</field>
             <field name="page_id" ref="its_mrp_product_survey_sample.specification_shaping_page"/>
         </record>
         <record id="specification_question_to" model="survey.question">
-            <field name="question">TO: </field>
+            <field name="question">TO:</field>
             <field name="type">textbox</field>
             <field name="page_id" ref="its_mrp_product_survey_sample.specification_shaping_page"/>
         </record>
         <record id="specification_question_and_from" model="survey.question">
-            <field name="question">AND FROM : </field>
+            <field name="question">AND FROM :</field>
             <field name="type">textbox</field>
             <field name="page_id" ref="its_mrp_product_survey_sample.specification_shaping_page"/>
         </record>
         <record id="specification_question_and_to" model="survey.question">
-            <field name="question">TO: </field>
+            <field name="question">TO:</field>
             <field name="type">textbox</field>
             <field name="page_id" ref="its_mrp_product_survey_sample.specification_shaping_page"/>
         </record>
 
 
-        <!--    Define the simple choice value for some questions    -->
+        <!--    Define the simple and multiple choice value for some questions    -->
         <record id="specification_label_stapling" model="survey.label">
             <field name="value">Stapling</field>
             <field name="question_id" ref="its_mrp_product_survey_sample.specification_question_fixation"/>

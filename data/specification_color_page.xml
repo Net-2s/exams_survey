@@ -7,14 +7,14 @@
             <field name="survey_id" ref="its_mrp_product_survey_sample.specification_sheet_sample"/>
         </record>
 
-        <!-- Creating questions for the header section-->
+        <!-- Creating questions for the color page-->
         <record id="specification_question_cover_r" model="survey.question">
             <field name="question">Cover : R°</field>
             <field name="type">textbox</field>
             <field name="page_id" ref="its_mrp_product_survey_sample.specification_color_page"/>
         </record>
         <record id="specification_question_pantone_ref1" model="survey.question">
-            <field name="question">Ref.Pantone </field>
+            <field name="question">Ref.Pantone</field>
             <field name="type">free_text</field>
             <field name="page_id" ref="its_mrp_product_survey_sample.specification_color_page"/>
         </record>
@@ -24,7 +24,7 @@
             <field name="page_id" ref="its_mrp_product_survey_sample.specification_color_page"/>
         </record>
         <record id="specification_question_pantone_ref2" model="survey.question">
-            <field name="question">Ref.Pantone </field>
+            <field name="question">Ref.Pantone</field>
             <field name="type">free_text</field>
             <field name="page_id" ref="its_mrp_product_survey_sample.specification_color_page"/>
         </record>
@@ -34,7 +34,7 @@
             <field name="page_id" ref="its_mrp_product_survey_sample.specification_color_page"/>
         </record>
         <record id="specification_question_pantone_ref3" model="survey.question">
-            <field name="question">Ref.Pantone </field>
+            <field name="question">Ref.Pantone</field>
             <field name="type">free_text</field>
             <field name="page_id" ref="its_mrp_product_survey_sample.specification_color_page"/>
         </record>

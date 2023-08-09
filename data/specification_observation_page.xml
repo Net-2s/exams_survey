@@ -7,7 +7,7 @@
             <field name="survey_id" ref="its_mrp_product_survey_sample.specification_sheet_sample"/>
         </record>
 
-        <!-- Creating questions for the observation page-->
+        <!-- Creating a question for the observation page-->
         <record id="specification_question_observation" model="survey.question">
             <field name="question">OBSERVATION</field>
             <field name="type">free_text</field>

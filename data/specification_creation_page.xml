@@ -7,7 +7,7 @@
             <field name="survey_id" ref="its_mrp_product_survey_sample.specification_sheet_sample"/>
         </record>
 
-        <!-- Creating questions for the header section-->
+        <!-- Creating questions for the creation page-->
         <record id="specification_question_is_composition" model="survey.question">
             <field name="question">Composition ?</field>
             <field name="column_nb">6</field>
@@ -15,37 +15,37 @@
             <field name="page_id" ref="its_mrp_product_survey_sample.specification_creation_page"/>
         </record>
         <record id="specification_question_composition_number_hours" model="survey.question">
-            <field name="question">If composition Number of hours: </field>
+            <field name="question">If composition Number of hours:</field>
             <field name="type">textbox</field>
             <field name="page_id" ref="its_mrp_product_survey_sample.specification_creation_page"/>
         </record>
         <record id="specification_question_selection_number_of_pictures" model="survey.question">
-            <field name="question">Selection: Number of pictures:  </field>
+            <field name="question">Selection: Number of pictures:</field>
             <field name="type">textbox</field>
             <field name="page_id" ref="its_mrp_product_survey_sample.specification_creation_page"/>
         </record>
         <record id="specification_question_selection_format" model="survey.question">
-            <field name="question">Selection: Format:  </field>
+            <field name="question">Selection: Format:</field>
             <field name="type">textbox</field>
             <field name="page_id" ref="its_mrp_product_survey_sample.specification_creation_page"/>
         </record>
         <record id="specification_question_selection_color" model="survey.question">
-            <field name="question">Selection: Colors:  </field>
+            <field name="question">Selection: Colors:</field>
             <field name="type">textbox</field>
             <field name="page_id" ref="its_mrp_product_survey_sample.specification_creation_page"/>
         </record>
         <record id="specification_question_imposition" model="survey.question">
-            <field name="question">Imposition:  </field>
+            <field name="question">Imposition:</field>
             <field name="type">free_text</field>
             <field name="page_id" ref="its_mrp_product_survey_sample.specification_creation_page"/>
         </record>
         <record id="specification_question_format_film" model="survey.question">
-            <field name="question">Photo engraving: Film - Format :  </field>
+            <field name="question">Photo engraving: Film - Format :</field>
             <field name="type">textbox</field>
             <field name="page_id" ref="its_mrp_product_survey_sample.specification_creation_page"/>
         </record>
         <record id="specification_question_number_of_film" model="survey.question">
-            <field name="question">Photo engraving: Number of Film:  </field>
+            <field name="question">Photo engraving: Number of Film:</field>
             <field name="type">textbox</field>
             <field name="page_id" ref="its_mrp_product_survey_sample.specification_creation_page"/>
         </record>
