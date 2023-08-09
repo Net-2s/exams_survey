@@ -1,0 +1,631 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* its_mrp_product_survey_sample
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0-20180816\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-08-08 17:31+0000\n"
+"PO-Revision-Date: 2023-08-08 17:31+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: its_mrp_product_survey_sample
+#: model:survey.question,question:its_mrp_product_survey_sample.specification_question_and_from
+msgid "AND FROM : "
+msgstr "ET DE : "
+
+#. module: its_mrp_product_survey_sample
+#: model:survey.label,value:its_mrp_product_survey_sample.specification_label_deliver_after_payment
+msgid "After payment"
+msgstr "Après règlement"
+
+#. module: its_mrp_product_survey_sample
+#: model:survey.label,value:its_mrp_product_survey_sample.specification_label_deliver_after_production
+msgid "After production"
+msgstr "Après production"
+
+#. module: its_mrp_product_survey_sample
+#: model:survey.label,value:its_mrp_product_survey_sample.specification_label_bonding
+msgid "Bonding"
+msgstr "Collage"
+
+#. module: its_mrp_product_survey_sample
+#: model:survey.label,value:its_mrp_product_survey_sample.specification_label_side_horse
+msgid "Cheval"
+msgstr "Cheval"
+
+#. module: its_mrp_product_survey_sample
+#: model:survey.question,question:its_mrp_product_survey_sample.specification_question_color_order
+msgid "Color Orders"
+msgstr "Ordres des couleurs"
+
+#. module: its_mrp_product_survey_sample
+#: model:survey.page,title:its_mrp_product_survey_sample.specification_color_page
+msgid "Colors"
+msgstr "Couleurs"
+
+#. module: its_mrp_product_survey_sample
+#: model:survey.question,question:its_mrp_product_survey_sample.specification_question_is_composition
+msgid "Composition ?"
+msgstr "Composition ?"
+
+#. module: its_mrp_product_survey_sample
+#: model:survey.question,question:its_mrp_product_survey_sample.specification_question_cover_r
+msgid "Cover : R°"
+msgstr "Couverture : R°"
+
+#. module: its_mrp_product_survey_sample
+#: model:survey.question,question:its_mrp_product_survey_sample.specification_question_cover_v
+msgid "Cover : V°"
+msgstr "Couverture : V°"
+
+#. module: its_mrp_product_survey_sample
+#: model:survey.question,question:its_mrp_product_survey_sample.specification_question_open_cover
+msgid "Cover: Open"
+msgstr "Couverture: Ouverte"
+
+#. module: its_mrp_product_survey_sample
+#: model:survey.question,question:its_mrp_product_survey_sample.specification_question_close_cover
+msgid "Cover: closed"
+msgstr "Couverture: Fermée"
+
+#. module: its_mrp_product_survey_sample
+#: model:survey.page,title:its_mrp_product_survey_sample.specification_creation_page
+msgid "Creation"
+msgstr "Création"
+
+#. module: its_mrp_product_survey_sample
+#: model:survey.question,question:its_mrp_product_survey_sample.specification_question_creation_number
+msgid "Creation N°: "
+msgstr "Création N°: "
+
+#. module: its_mrp_product_survey_sample
+#: model:survey.question,question:its_mrp_product_survey_sample.specification_question_creation_date
+#: model:survey.question,question:its_mrp_product_survey_sample.specification_question_factory_date
+#: model:survey.question,question:its_mrp_product_survey_sample.specification_question_folder_date
+msgid "Date: "
+msgstr "Date: "
+
+#. module: its_mrp_product_survey_sample
+#: model:survey.question,question:its_mrp_product_survey_sample.specification_question_delivery_date
+msgid "Delivery: Date : "
+msgstr "Livraison: Date : "
+
+#. module: its_mrp_product_survey_sample
+#: model:survey.question,question:its_mrp_product_survey_sample.specification_question_designation
+msgid "Designation: "
+msgstr "Désignation: "
+
+#. module: its_mrp_product_survey_sample
+#: model:survey.question,question:its_mrp_product_survey_sample.specification_question_from
+msgid "FROM : "
+msgstr "DE : "
+
+#. module: its_mrp_product_survey_sample
+#: model:survey.question,question:its_mrp_product_survey_sample.specification_question_factory_a
+msgid "Factory A: "
+msgstr "Usine A: "
+
+#. module: its_mrp_product_survey_sample
+#: model:survey.question,question:its_mrp_product_survey_sample.specification_question_factory_i
+msgid "Factory I: "
+msgstr "Usine I: "
+
+#. module: its_mrp_product_survey_sample
+#: model:survey.question,question:its_mrp_product_survey_sample.specification_question_factory_s
+msgid "Factory S: "
+msgstr "Usine S: "
+
+#. module: its_mrp_product_survey_sample
+#: model:survey.page,title:its_mrp_product_survey_sample.specification_finished_format_page
+msgid "Finished Format"
+msgstr "Format fini"
+
+#. module: its_mrp_product_survey_sample
+#: model:survey.label,value:its_mrp_product_survey_sample.specification_label_footer
+msgid "Footer"
+msgstr "Pied"
+
+#. module: its_mrp_product_survey_sample
+#: model:survey.question,question:its_mrp_product_survey_sample.specification_question_sale_order_date
+msgid "From: "
+msgstr "Du: "
+
+#. module: its_mrp_product_survey_sample
+#: model:survey.question,question:its_mrp_product_survey_sample.specification_question_general_folder
+msgid "General Folder: N°: "
+msgstr "Dossier Général : N°: "
+
+#. module: its_mrp_product_survey_sample
+#: model:survey.survey,title:its_mrp_product_survey_sample.specification_sheet_sample
+msgid "Graphics System product survey"
+msgstr "Graphics System product survey"
+
+#. module: its_mrp_product_survey_sample
+#: model:survey.label,value:its_mrp_product_survey_sample.specification_label_header
+#: model:survey.page,title:its_mrp_product_survey_sample.specification_header_page
+msgid "Header"
+msgstr "Entête"
+
+#. module: its_mrp_product_survey_sample
+#: model:survey.question,question:its_mrp_product_survey_sample.specification_question_creation_hours
+#: model:survey.question,question:its_mrp_product_survey_sample.specification_question_factory_hours
+#: model:survey.question,question:its_mrp_product_survey_sample.specification_question_folder_hours
+msgid "Hours: "
+msgstr "Heures: "
+
+#. module: its_mrp_product_survey_sample
+#: model:survey.question,question:its_mrp_product_survey_sample.specification_question_fixation
+msgid "How should the document be fixe ?"
+msgstr "Comment doit être fixé le document ?"
+
+#. module: its_mrp_product_survey_sample
+#: model:survey.question,question:its_mrp_product_survey_sample.specification_question_pvc_thickness
+msgid "If P.V.C thickness: "
+msgstr "Si P.V.C epaisseur: "
+
+#. module: its_mrp_product_survey_sample
+#: model:survey.question,question:its_mrp_product_survey_sample.specification_question_composition_number_hours
+msgid "If composition Number of hours: "
+msgstr "Si composition Nombre d'heures: "
+
+#. module: its_mrp_product_survey_sample
+#: model:survey.question,comments_message:its_mrp_product_survey_sample.specification_question_and_from
+#: model:survey.question,comments_message:its_mrp_product_survey_sample.specification_question_and_to
+#: model:survey.question,comments_message:its_mrp_product_survey_sample.specification_question_close_cover
+#: model:survey.question,comments_message:its_mrp_product_survey_sample.specification_question_close_interior
+#: model:survey.question,comments_message:its_mrp_product_survey_sample.specification_question_color_order
+#: model:survey.question,comments_message:its_mrp_product_survey_sample.specification_question_composition_number_hours
+#: model:survey.question,comments_message:its_mrp_product_survey_sample.specification_question_cover_r
+#: model:survey.question,comments_message:its_mrp_product_survey_sample.specification_question_cover_v
+#: model:survey.question,comments_message:its_mrp_product_survey_sample.specification_question_creation_date
+#: model:survey.question,comments_message:its_mrp_product_survey_sample.specification_question_creation_hours
+#: model:survey.question,comments_message:its_mrp_product_survey_sample.specification_question_creation_number
+#: model:survey.question,comments_message:its_mrp_product_survey_sample.specification_question_delivery_date
+#: model:survey.question,comments_message:its_mrp_product_survey_sample.specification_question_designation
+#: model:survey.question,comments_message:its_mrp_product_survey_sample.specification_question_eighth_color
+#: model:survey.question,comments_message:its_mrp_product_survey_sample.specification_question_factory_a
+#: model:survey.question,comments_message:its_mrp_product_survey_sample.specification_question_factory_date
+#: model:survey.question,comments_message:its_mrp_product_survey_sample.specification_question_factory_hours
+#: model:survey.question,comments_message:its_mrp_product_survey_sample.specification_question_factory_i
+#: model:survey.question,comments_message:its_mrp_product_survey_sample.specification_question_factory_s
+#: model:survey.question,comments_message:its_mrp_product_survey_sample.specification_question_fifth_color
+#: model:survey.question,comments_message:its_mrp_product_survey_sample.specification_question_first_color
+#: model:survey.question,comments_message:its_mrp_product_survey_sample.specification_question_fixation
+#: model:survey.question,comments_message:its_mrp_product_survey_sample.specification_question_folder_date
+#: model:survey.question,comments_message:its_mrp_product_survey_sample.specification_question_folder_hours
+#: model:survey.question,comments_message:its_mrp_product_survey_sample.specification_question_format_film
+#: model:survey.question,comments_message:its_mrp_product_survey_sample.specification_question_fort_color
+#: model:survey.question,comments_message:its_mrp_product_survey_sample.specification_question_from
+#: model:survey.question,comments_message:its_mrp_product_survey_sample.specification_question_general_folder
+#: model:survey.question,comments_message:its_mrp_product_survey_sample.specification_question_imposition
+#: model:survey.question,comments_message:its_mrp_product_survey_sample.specification_question_interior
+#: model:survey.question,comments_message:its_mrp_product_survey_sample.specification_question_is_composition
+#: model:survey.question,comments_message:its_mrp_product_survey_sample.specification_question_is_paper
+#: model:survey.question,comments_message:its_mrp_product_survey_sample.specification_question_is_pvc
+#: model:survey.question,comments_message:its_mrp_product_survey_sample.specification_question_layout
+#: model:survey.question,comments_message:its_mrp_product_survey_sample.specification_question_location
+#: model:survey.question,comments_message:its_mrp_product_survey_sample.specification_question_name
+#: model:survey.question,comments_message:its_mrp_product_survey_sample.specification_question_number
+#: model:survey.question,comments_message:its_mrp_product_survey_sample.specification_question_number_of_cover_page
+#: model:survey.question,comments_message:its_mrp_product_survey_sample.specification_question_number_of_film
+#: model:survey.question,comments_message:its_mrp_product_survey_sample.specification_question_number_of_leaflet_page
+#: model:survey.question,comments_message:its_mrp_product_survey_sample.specification_question_numbering
+#: model:survey.question,comments_message:its_mrp_product_survey_sample.specification_question_observation
+#: model:survey.question,comments_message:its_mrp_product_survey_sample.specification_question_open_cover
+#: model:survey.question,comments_message:its_mrp_product_survey_sample.specification_question_open_interior
+#: model:survey.question,comments_message:its_mrp_product_survey_sample.specification_question_pantone_ref1
+#: model:survey.question,comments_message:its_mrp_product_survey_sample.specification_question_pantone_ref2
+#: model:survey.question,comments_message:its_mrp_product_survey_sample.specification_question_pantone_ref3
+#: model:survey.question,comments_message:its_mrp_product_survey_sample.specification_question_paper_cover
+#: model:survey.question,comments_message:its_mrp_product_survey_sample.specification_question_paper_int
+#: model:survey.question,comments_message:its_mrp_product_survey_sample.specification_question_person_to_contact
+#: model:survey.question,comments_message:its_mrp_product_survey_sample.specification_question_pvc_thickness
+#: model:survey.question,comments_message:its_mrp_product_survey_sample.specification_question_quantity
+#: model:survey.question,comments_message:its_mrp_product_survey_sample.specification_question_rabat_g
+#: model:survey.question,comments_message:its_mrp_product_survey_sample.specification_question_reduction_b
+#: model:survey.question,comments_message:its_mrp_product_survey_sample.specification_question_reduction_d
+#: model:survey.question,comments_message:its_mrp_product_survey_sample.specification_question_reduction_h
+#: model:survey.question,comments_message:its_mrp_product_survey_sample.specification_question_sale_order_date
+#: model:survey.question,comments_message:its_mrp_product_survey_sample.specification_question_sale_order_number
+#: model:survey.question,comments_message:its_mrp_product_survey_sample.specification_question_second_color
+#: model:survey.question,comments_message:its_mrp_product_survey_sample.specification_question_selection_color
+#: model:survey.question,comments_message:its_mrp_product_survey_sample.specification_question_selection_format
+#: model:survey.question,comments_message:its_mrp_product_survey_sample.specification_question_selection_number_of_pictures
+#: model:survey.question,comments_message:its_mrp_product_survey_sample.specification_question_seventh_color
+#: model:survey.question,comments_message:its_mrp_product_survey_sample.specification_question_side
+#: model:survey.question,comments_message:its_mrp_product_survey_sample.specification_question_sixth_color
+#: model:survey.question,comments_message:its_mrp_product_survey_sample.specification_question_stapling_number
+#: model:survey.question,comments_message:its_mrp_product_survey_sample.specification_question_support_type
+#: model:survey.question,comments_message:its_mrp_product_survey_sample.specification_question_third_color
+#: model:survey.question,comments_message:its_mrp_product_survey_sample.specification_question_to
+#: model:survey.question,comments_message:its_mrp_product_survey_sample.specification_question_to_be_delivered
+msgid "If other, please specify:"
+msgstr "If other, veuillez specifier:"
+
+#. module: its_mrp_product_survey_sample
+#: model:survey.question,question:its_mrp_product_survey_sample.specification_question_paper_cover
+msgid "If paper cover. "
+msgstr "Si papier couv. "
+
+#. module: its_mrp_product_survey_sample
+#: model:survey.question,question:its_mrp_product_survey_sample.specification_question_paper_int
+msgid "If paper int. "
+msgstr "Si papier int. "
+
+#. module: its_mrp_product_survey_sample
+#: model:survey.question,question:its_mrp_product_survey_sample.specification_question_imposition
+msgid "Imposition:  "
+msgstr "Imposition:  "
+
+#. module: its_mrp_product_survey_sample
+#: model:survey.question,question:its_mrp_product_survey_sample.specification_question_interior
+msgid "Interior"
+msgstr "Intérieur"
+
+#. module: its_mrp_product_survey_sample
+#: model:survey.question,question:its_mrp_product_survey_sample.specification_question_close_interior
+msgid "Interior: Closed"
+msgstr "Intérieur: Fermé"
+
+#. module: its_mrp_product_survey_sample
+#: model:survey.question,question:its_mrp_product_survey_sample.specification_question_open_interior
+msgid "Interior: Open"
+msgstr "Intérieur: Ouvert"
+
+#. module: its_mrp_product_survey_sample
+#: model:survey.question,question:its_mrp_product_survey_sample.specification_question_location
+msgid "Location : "
+msgstr "Lieu : "
+
+#. module: its_mrp_product_survey_sample
+#: model:survey.label,value:its_mrp_product_survey_sample.specification_label_its_not_a_composition
+#: model:survey.label,value:its_mrp_product_survey_sample.specification_label_its_not_paper
+#: model:survey.label,value:its_mrp_product_survey_sample.specification_label_its_not_pvc
+msgid "NO"
+msgstr "NON"
+
+#. module: its_mrp_product_survey_sample
+#: model:survey.question,question:its_mrp_product_survey_sample.specification_question_name
+msgid "Name: "
+msgstr "Nom: "
+
+#. module: its_mrp_product_survey_sample
+#: model:survey.question,question:its_mrp_product_survey_sample.specification_question_number_of_leaflet_page
+msgid "Number of leaflet int."
+msgstr "Nombre de feuillets int."
+
+#. module: its_mrp_product_survey_sample
+#: model:survey.question,question:its_mrp_product_survey_sample.specification_question_number_of_cover_page
+msgid "Number of pages couv."
+msgstr "Nombre de pages couv."
+
+#. module: its_mrp_product_survey_sample
+#: model:survey.question,question:its_mrp_product_survey_sample.specification_question_numbering
+msgid "Numbering"
+msgstr "Numérotation"
+
+#. module: its_mrp_product_survey_sample
+#: model:survey.question,question:its_mrp_product_survey_sample.specification_question_observation
+msgid "OBSERVATION"
+msgstr "OBSERVATION"
+
+#. module: its_mrp_product_survey_sample
+#: model:survey.page,title:its_mrp_product_survey_sample.specification_observation_page
+msgid "Observation"
+msgstr "Observation"
+
+#. module: its_mrp_product_survey_sample
+#: model:survey.label,value:its_mrp_product_survey_sample.specification_label_others
+msgid "Others"
+msgstr "Autres"
+
+#. module: its_mrp_product_survey_sample
+#: model:survey.question,question:its_mrp_product_survey_sample.specification_question_is_pvc
+msgid "P.V.C ?"
+msgstr "P.V.C ?"
+
+#. module: its_mrp_product_survey_sample
+#: model:survey.question,question:its_mrp_product_survey_sample.specification_question_layout
+msgid "Page Layout"
+msgstr "Mise en forme de la page "
+
+#. module: its_mrp_product_survey_sample
+#: model:survey.question,question:its_mrp_product_survey_sample.specification_question_is_paper
+msgid "Paper ?"
+msgstr "Papier ?"
+
+#. module: its_mrp_product_survey_sample
+#: model:survey.question,question:its_mrp_product_survey_sample.specification_question_person_to_contact
+msgid "Person to contact: "
+msgstr "Personne à contacter: "
+
+#. module: its_mrp_product_survey_sample
+#: model:survey.question,question:its_mrp_product_survey_sample.specification_question_format_film
+msgid "Photo engraving: Film - Format :  "
+msgstr "Photo gravure: Format - Film:  "
+
+#. module: its_mrp_product_survey_sample
+#: model:survey.question,question:its_mrp_product_survey_sample.specification_question_number_of_film
+msgid "Photo engraving: Number of Film:  "
+msgstr "Photo gravure: Nombre de Film:  "
+
+#. module: its_mrp_product_survey_sample
+#: model:survey.label,value:its_mrp_product_survey_sample.specification_label_side_flat
+msgid "Flat"
+msgstr "Plat"
+
+#. module: its_mrp_product_survey_sample
+#: model:survey.question,question:its_mrp_product_survey_sample.specification_question_quantity
+msgid "Quantity : "
+msgstr "Quantité : "
+
+#. module: its_mrp_product_survey_sample
+#: model:survey.question,question:its_mrp_product_survey_sample.specification_question_reduction_b
+msgid "fold-over : B"
+msgstr "Rabat : B"
+
+#. module: its_mrp_product_survey_sample
+#: model:survey.question,question:its_mrp_product_survey_sample.specification_question_reduction_d
+msgid "fold-over : D"
+msgstr "Rabat : D"
+
+#. module: its_mrp_product_survey_sample
+#: model:survey.question,question:its_mrp_product_survey_sample.specification_question_rabat_g
+msgid "fold-over : G"
+msgstr "Rabat : G"
+
+#. module: its_mrp_product_survey_sample
+#: model:survey.question,question:its_mrp_product_survey_sample.specification_question_reduction_h
+msgid "fold-over : H"
+msgstr "Rabat : H"
+
+#. module: its_mrp_product_survey_sample
+#: model:survey.question,question:its_mrp_product_survey_sample.specification_question_pantone_ref1
+#: model:survey.question,question:its_mrp_product_survey_sample.specification_question_pantone_ref2
+#: model:survey.question,question:its_mrp_product_survey_sample.specification_question_pantone_ref3
+msgid "Ref.Pantone "
+msgstr "Réf.Pantone "
+
+#. module: its_mrp_product_survey_sample
+#: model:survey.question,question:its_mrp_product_survey_sample.specification_question_sale_order_number
+msgid "Sale Order N°: "
+msgstr "Bon de commande N°: "
+
+#. module: its_mrp_product_survey_sample
+#: model:survey.question,question:its_mrp_product_survey_sample.specification_question_selection_color
+msgid "Selection: Colors:  "
+msgstr "Sélection: Couleurs:  "
+
+#. module: its_mrp_product_survey_sample
+#: model:survey.question,question:its_mrp_product_survey_sample.specification_question_selection_format
+msgid "Selection: Format:  "
+msgstr "Sélection: Format:  "
+
+#. module: its_mrp_product_survey_sample
+#: model:survey.question,question:its_mrp_product_survey_sample.specification_question_selection_number_of_pictures
+msgid "Selection: Number of pictures:  "
+msgstr "Sélection: Nbre de photo:  "
+
+#. module: its_mrp_product_survey_sample
+#: model:survey.page,title:its_mrp_product_survey_sample.specification_shaping_page
+msgid "Shapping"
+msgstr "Façonnage"
+
+#. module: its_mrp_product_survey_sample
+#: model:survey.question,question:its_mrp_product_survey_sample.specification_question_side
+msgid "Side"
+msgstr "Côté"
+
+#. module: its_mrp_product_survey_sample
+#: model:survey.label,value:its_mrp_product_survey_sample.specification_label_stapling
+msgid "Stapling"
+msgstr "Agraffage"
+
+#. module: its_mrp_product_survey_sample
+#: model:survey.question,question:its_mrp_product_survey_sample.specification_question_stapling_number
+msgid "Stapling Number : "
+msgstr "Nombre d'agraffes : "
+
+#. module: its_mrp_product_survey_sample
+#: model:survey.page,title:its_mrp_product_survey_sample.specification_support_page
+msgid "Support"
+msgstr "Support"
+
+#. module: its_mrp_product_survey_sample
+#: model:survey.question,question:its_mrp_product_survey_sample.specification_question_support_type
+msgid "Support type"
+msgstr "Type de Support"
+
+#. module: its_mrp_product_survey_sample
+#: model:ir.model,name:its_mrp_product_survey_sample.model_survey_survey
+msgid "Survey"
+msgstr "Sondage"
+
+#. module: its_mrp_product_survey_sample
+#: model:survey.question,question:its_mrp_product_survey_sample.specification_question_and_to
+#: model:survey.question,question:its_mrp_product_survey_sample.specification_question_to
+msgid "TO: "
+msgstr "A: "
+
+#. module: its_mrp_product_survey_sample
+#: model:survey.question,question:its_mrp_product_survey_sample.specification_question_number
+msgid "Tel: "
+msgstr "Tél: "
+
+#. module: its_mrp_product_survey_sample
+#: model:survey.question,validation_error_msg:its_mrp_product_survey_sample.specification_question_and_from
+#: model:survey.question,validation_error_msg:its_mrp_product_survey_sample.specification_question_and_to
+#: model:survey.question,validation_error_msg:its_mrp_product_survey_sample.specification_question_close_cover
+#: model:survey.question,validation_error_msg:its_mrp_product_survey_sample.specification_question_close_interior
+#: model:survey.question,validation_error_msg:its_mrp_product_survey_sample.specification_question_color_order
+#: model:survey.question,validation_error_msg:its_mrp_product_survey_sample.specification_question_composition_number_hours
+#: model:survey.question,validation_error_msg:its_mrp_product_survey_sample.specification_question_cover_r
+#: model:survey.question,validation_error_msg:its_mrp_product_survey_sample.specification_question_cover_v
+#: model:survey.question,validation_error_msg:its_mrp_product_survey_sample.specification_question_creation_date
+#: model:survey.question,validation_error_msg:its_mrp_product_survey_sample.specification_question_creation_hours
+#: model:survey.question,validation_error_msg:its_mrp_product_survey_sample.specification_question_creation_number
+#: model:survey.question,validation_error_msg:its_mrp_product_survey_sample.specification_question_delivery_date
+#: model:survey.question,validation_error_msg:its_mrp_product_survey_sample.specification_question_designation
+#: model:survey.question,validation_error_msg:its_mrp_product_survey_sample.specification_question_eighth_color
+#: model:survey.question,validation_error_msg:its_mrp_product_survey_sample.specification_question_factory_a
+#: model:survey.question,validation_error_msg:its_mrp_product_survey_sample.specification_question_factory_date
+#: model:survey.question,validation_error_msg:its_mrp_product_survey_sample.specification_question_factory_hours
+#: model:survey.question,validation_error_msg:its_mrp_product_survey_sample.specification_question_factory_i
+#: model:survey.question,validation_error_msg:its_mrp_product_survey_sample.specification_question_factory_s
+#: model:survey.question,validation_error_msg:its_mrp_product_survey_sample.specification_question_fifth_color
+#: model:survey.question,validation_error_msg:its_mrp_product_survey_sample.specification_question_first_color
+#: model:survey.question,validation_error_msg:its_mrp_product_survey_sample.specification_question_fixation
+#: model:survey.question,validation_error_msg:its_mrp_product_survey_sample.specification_question_folder_date
+#: model:survey.question,validation_error_msg:its_mrp_product_survey_sample.specification_question_folder_hours
+#: model:survey.question,validation_error_msg:its_mrp_product_survey_sample.specification_question_format_film
+#: model:survey.question,validation_error_msg:its_mrp_product_survey_sample.specification_question_fort_color
+#: model:survey.question,validation_error_msg:its_mrp_product_survey_sample.specification_question_from
+#: model:survey.question,validation_error_msg:its_mrp_product_survey_sample.specification_question_general_folder
+#: model:survey.question,validation_error_msg:its_mrp_product_survey_sample.specification_question_imposition
+#: model:survey.question,validation_error_msg:its_mrp_product_survey_sample.specification_question_interior
+#: model:survey.question,validation_error_msg:its_mrp_product_survey_sample.specification_question_is_composition
+#: model:survey.question,validation_error_msg:its_mrp_product_survey_sample.specification_question_is_paper
+#: model:survey.question,validation_error_msg:its_mrp_product_survey_sample.specification_question_is_pvc
+#: model:survey.question,validation_error_msg:its_mrp_product_survey_sample.specification_question_layout
+#: model:survey.question,validation_error_msg:its_mrp_product_survey_sample.specification_question_location
+#: model:survey.question,validation_error_msg:its_mrp_product_survey_sample.specification_question_name
+#: model:survey.question,validation_error_msg:its_mrp_product_survey_sample.specification_question_number
+#: model:survey.question,validation_error_msg:its_mrp_product_survey_sample.specification_question_number_of_cover_page
+#: model:survey.question,validation_error_msg:its_mrp_product_survey_sample.specification_question_number_of_film
+#: model:survey.question,validation_error_msg:its_mrp_product_survey_sample.specification_question_number_of_leaflet_page
+#: model:survey.question,validation_error_msg:its_mrp_product_survey_sample.specification_question_numbering
+#: model:survey.question,validation_error_msg:its_mrp_product_survey_sample.specification_question_observation
+#: model:survey.question,validation_error_msg:its_mrp_product_survey_sample.specification_question_open_cover
+#: model:survey.question,validation_error_msg:its_mrp_product_survey_sample.specification_question_open_interior
+#: model:survey.question,validation_error_msg:its_mrp_product_survey_sample.specification_question_pantone_ref1
+#: model:survey.question,validation_error_msg:its_mrp_product_survey_sample.specification_question_pantone_ref2
+#: model:survey.question,validation_error_msg:its_mrp_product_survey_sample.specification_question_pantone_ref3
+#: model:survey.question,validation_error_msg:its_mrp_product_survey_sample.specification_question_paper_cover
+#: model:survey.question,validation_error_msg:its_mrp_product_survey_sample.specification_question_paper_int
+#: model:survey.question,validation_error_msg:its_mrp_product_survey_sample.specification_question_person_to_contact
+#: model:survey.question,validation_error_msg:its_mrp_product_survey_sample.specification_question_pvc_thickness
+#: model:survey.question,validation_error_msg:its_mrp_product_survey_sample.specification_question_quantity
+#: model:survey.question,validation_error_msg:its_mrp_product_survey_sample.specification_question_rabat_g
+#: model:survey.question,validation_error_msg:its_mrp_product_survey_sample.specification_question_reduction_b
+#: model:survey.question,validation_error_msg:its_mrp_product_survey_sample.specification_question_reduction_d
+#: model:survey.question,validation_error_msg:its_mrp_product_survey_sample.specification_question_reduction_h
+#: model:survey.question,validation_error_msg:its_mrp_product_survey_sample.specification_question_sale_order_date
+#: model:survey.question,validation_error_msg:its_mrp_product_survey_sample.specification_question_sale_order_number
+#: model:survey.question,validation_error_msg:its_mrp_product_survey_sample.specification_question_second_color
+#: model:survey.question,validation_error_msg:its_mrp_product_survey_sample.specification_question_selection_color
+#: model:survey.question,validation_error_msg:its_mrp_product_survey_sample.specification_question_selection_format
+#: model:survey.question,validation_error_msg:its_mrp_product_survey_sample.specification_question_selection_number_of_pictures
+#: model:survey.question,validation_error_msg:its_mrp_product_survey_sample.specification_question_seventh_color
+#: model:survey.question,validation_error_msg:its_mrp_product_survey_sample.specification_question_side
+#: model:survey.question,validation_error_msg:its_mrp_product_survey_sample.specification_question_sixth_color
+#: model:survey.question,validation_error_msg:its_mrp_product_survey_sample.specification_question_stapling_number
+#: model:survey.question,validation_error_msg:its_mrp_product_survey_sample.specification_question_support_type
+#: model:survey.question,validation_error_msg:its_mrp_product_survey_sample.specification_question_third_color
+#: model:survey.question,validation_error_msg:its_mrp_product_survey_sample.specification_question_to
+#: model:survey.question,validation_error_msg:its_mrp_product_survey_sample.specification_question_to_be_delivered
+msgid "The answer you entered has an invalid format."
+msgstr "Le format de la réponse que vous avez saisie n'est pas valide."
+
+#. module: its_mrp_product_survey_sample
+#: model:survey.question,constr_error_msg:its_mrp_product_survey_sample.specification_question_and_from
+#: model:survey.question,constr_error_msg:its_mrp_product_survey_sample.specification_question_and_to
+#: model:survey.question,constr_error_msg:its_mrp_product_survey_sample.specification_question_close_cover
+#: model:survey.question,constr_error_msg:its_mrp_product_survey_sample.specification_question_close_interior
+#: model:survey.question,constr_error_msg:its_mrp_product_survey_sample.specification_question_color_order
+#: model:survey.question,constr_error_msg:its_mrp_product_survey_sample.specification_question_composition_number_hours
+#: model:survey.question,constr_error_msg:its_mrp_product_survey_sample.specification_question_cover_r
+#: model:survey.question,constr_error_msg:its_mrp_product_survey_sample.specification_question_cover_v
+#: model:survey.question,constr_error_msg:its_mrp_product_survey_sample.specification_question_creation_date
+#: model:survey.question,constr_error_msg:its_mrp_product_survey_sample.specification_question_creation_hours
+#: model:survey.question,constr_error_msg:its_mrp_product_survey_sample.specification_question_creation_number
+#: model:survey.question,constr_error_msg:its_mrp_product_survey_sample.specification_question_delivery_date
+#: model:survey.question,constr_error_msg:its_mrp_product_survey_sample.specification_question_designation
+#: model:survey.question,constr_error_msg:its_mrp_product_survey_sample.specification_question_eighth_color
+#: model:survey.question,constr_error_msg:its_mrp_product_survey_sample.specification_question_factory_a
+#: model:survey.question,constr_error_msg:its_mrp_product_survey_sample.specification_question_factory_date
+#: model:survey.question,constr_error_msg:its_mrp_product_survey_sample.specification_question_factory_hours
+#: model:survey.question,constr_error_msg:its_mrp_product_survey_sample.specification_question_factory_i
+#: model:survey.question,constr_error_msg:its_mrp_product_survey_sample.specification_question_factory_s
+#: model:survey.question,constr_error_msg:its_mrp_product_survey_sample.specification_question_fifth_color
+#: model:survey.question,constr_error_msg:its_mrp_product_survey_sample.specification_question_first_color
+#: model:survey.question,constr_error_msg:its_mrp_product_survey_sample.specification_question_fixation
+#: model:survey.question,constr_error_msg:its_mrp_product_survey_sample.specification_question_folder_date
+#: model:survey.question,constr_error_msg:its_mrp_product_survey_sample.specification_question_folder_hours
+#: model:survey.question,constr_error_msg:its_mrp_product_survey_sample.specification_question_format_film
+#: model:survey.question,constr_error_msg:its_mrp_product_survey_sample.specification_question_fort_color
+#: model:survey.question,constr_error_msg:its_mrp_product_survey_sample.specification_question_from
+#: model:survey.question,constr_error_msg:its_mrp_product_survey_sample.specification_question_general_folder
+#: model:survey.question,constr_error_msg:its_mrp_product_survey_sample.specification_question_imposition
+#: model:survey.question,constr_error_msg:its_mrp_product_survey_sample.specification_question_interior
+#: model:survey.question,constr_error_msg:its_mrp_product_survey_sample.specification_question_is_composition
+#: model:survey.question,constr_error_msg:its_mrp_product_survey_sample.specification_question_is_paper
+#: model:survey.question,constr_error_msg:its_mrp_product_survey_sample.specification_question_is_pvc
+#: model:survey.question,constr_error_msg:its_mrp_product_survey_sample.specification_question_layout
+#: model:survey.question,constr_error_msg:its_mrp_product_survey_sample.specification_question_location
+#: model:survey.question,constr_error_msg:its_mrp_product_survey_sample.specification_question_name
+#: model:survey.question,constr_error_msg:its_mrp_product_survey_sample.specification_question_number
+#: model:survey.question,constr_error_msg:its_mrp_product_survey_sample.specification_question_number_of_cover_page
+#: model:survey.question,constr_error_msg:its_mrp_product_survey_sample.specification_question_number_of_film
+#: model:survey.question,constr_error_msg:its_mrp_product_survey_sample.specification_question_number_of_leaflet_page
+#: model:survey.question,constr_error_msg:its_mrp_product_survey_sample.specification_question_numbering
+#: model:survey.question,constr_error_msg:its_mrp_product_survey_sample.specification_question_observation
+#: model:survey.question,constr_error_msg:its_mrp_product_survey_sample.specification_question_open_cover
+#: model:survey.question,constr_error_msg:its_mrp_product_survey_sample.specification_question_open_interior
+#: model:survey.question,constr_error_msg:its_mrp_product_survey_sample.specification_question_pantone_ref1
+#: model:survey.question,constr_error_msg:its_mrp_product_survey_sample.specification_question_pantone_ref2
+#: model:survey.question,constr_error_msg:its_mrp_product_survey_sample.specification_question_pantone_ref3
+#: model:survey.question,constr_error_msg:its_mrp_product_survey_sample.specification_question_paper_cover
+#: model:survey.question,constr_error_msg:its_mrp_product_survey_sample.specification_question_paper_int
+#: model:survey.question,constr_error_msg:its_mrp_product_survey_sample.specification_question_person_to_contact
+#: model:survey.question,constr_error_msg:its_mrp_product_survey_sample.specification_question_pvc_thickness
+#: model:survey.question,constr_error_msg:its_mrp_product_survey_sample.specification_question_quantity
+#: model:survey.question,constr_error_msg:its_mrp_product_survey_sample.specification_question_rabat_g
+#: model:survey.question,constr_error_msg:its_mrp_product_survey_sample.specification_question_reduction_b
+#: model:survey.question,constr_error_msg:its_mrp_product_survey_sample.specification_question_reduction_d
+#: model:survey.question,constr_error_msg:its_mrp_product_survey_sample.specification_question_reduction_h
+#: model:survey.question,constr_error_msg:its_mrp_product_survey_sample.specification_question_sale_order_date
+#: model:survey.question,constr_error_msg:its_mrp_product_survey_sample.specification_question_sale_order_number
+#: model:survey.question,constr_error_msg:its_mrp_product_survey_sample.specification_question_second_color
+#: model:survey.question,constr_error_msg:its_mrp_product_survey_sample.specification_question_selection_color
+#: model:survey.question,constr_error_msg:its_mrp_product_survey_sample.specification_question_selection_format
+#: model:survey.question,constr_error_msg:its_mrp_product_survey_sample.specification_question_selection_number_of_pictures
+#: model:survey.question,constr_error_msg:its_mrp_product_survey_sample.specification_question_seventh_color
+#: model:survey.question,constr_error_msg:its_mrp_product_survey_sample.specification_question_side
+#: model:survey.question,constr_error_msg:its_mrp_product_survey_sample.specification_question_sixth_color
+#: model:survey.question,constr_error_msg:its_mrp_product_survey_sample.specification_question_stapling_number
+#: model:survey.question,constr_error_msg:its_mrp_product_survey_sample.specification_question_support_type
+#: model:survey.question,constr_error_msg:its_mrp_product_survey_sample.specification_question_third_color
+#: model:survey.question,constr_error_msg:its_mrp_product_survey_sample.specification_question_to
+#: model:survey.question,constr_error_msg:its_mrp_product_survey_sample.specification_question_to_be_delivered
+msgid "This question requires an answer."
+msgstr "Cette question nécessite une réponse."
+
+#. module: its_mrp_product_survey_sample
+#: model:survey.question,question:its_mrp_product_survey_sample.specification_question_to_be_delivered
+msgid "To be Delivered : "
+msgstr "A livrer : "
+
+#. module: its_mrp_product_survey_sample
+#: model:survey.label,value:its_mrp_product_survey_sample.specification_label_tyvet
+msgid "Tyvet"
+msgstr "Tyvet"
+
+#. module: its_mrp_product_survey_sample
+#: model:survey.label,value:its_mrp_product_survey_sample.specification_label_vinyl
+msgid "Vinyl"
+msgstr "Vinyl"
+
+#. module: its_mrp_product_survey_sample
+#: model:survey.label,value:its_mrp_product_survey_sample.specification_label_yes_its_a_composition
+#: model:survey.label,value:its_mrp_product_survey_sample.specification_label_yes_its_paper
+#: model:survey.label,value:its_mrp_product_survey_sample.specification_label_yes_its_pvc
+msgid "YES"
+msgstr "OUI"
+

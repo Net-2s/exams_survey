@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="0">
+        <!-- Creating the shaping page for the sample specification sheet-->
+        <record id="specification_shaping_page" model="survey.page">
+            <field name="title">Shapping</field>
+            <field name="survey_id" ref="its_mrp_product_survey_sample.specification_sheet_sample"/>
+        </record>
+
+        <!-- Creating questions for the header section-->
+        <record id="specification_question_fixation" model="survey.question">
+            <field name="question">How should the document be fixe ?</field>
+            <field name="column_nb">12</field>
+            <field name="type">simple_choice</field>
+            <field name="page_id" ref="its_mrp_product_survey_sample.specification_shaping_page"/>
+        </record>
+        <record id="specification_question_layout" model="survey.question">
+            <field name="question">Page Layout</field>
+            <field name="column_nb">6</field>
+            <field name="type">multiple_choice</field>
+            <field name="page_id" ref="its_mrp_product_survey_sample.specification_shaping_page"/>
+        </record>
+        <record id="specification_question_side" model="survey.question">
+            <field name="question">Side</field>
+            <field name="column_nb">6</field>
+            <field name="type">multiple_choice</field>
+            <field name="page_id" ref="its_mrp_product_survey_sample.specification_shaping_page"/>
+        </record>
+        <record id="specification_question_stapling_number" model="survey.question">
+            <field name="question">Stapling Number : </field>
+            <field name="type">numerical_box</field>
+            <field name="page_id" ref="its_mrp_product_survey_sample.specification_shaping_page"/>
+        </record>
+        <record id="specification_question_numbering" model="survey.question">
+            <field name="question">Numbering</field>
+            <field name="column_nb">6</field>
+            <field name="type">multiple_choice</field>
+            <field name="page_id" ref="its_mrp_product_survey_sample.specification_shaping_page"/>
+        </record>
+        <record id="specification_question_from" model="survey.question">
+            <field name="question">FROM : </field>
+            <field name="type">textbox</field>
+            <field name="page_id" ref="its_mrp_product_survey_sample.specification_shaping_page"/>
+        </record>
+        <record id="specification_question_to" model="survey.question">
+            <field name="question">TO: </field>
+            <field name="type">textbox</field>
+            <field name="page_id" ref="its_mrp_product_survey_sample.specification_shaping_page"/>
+        </record>
+        <record id="specification_question_and_from" model="survey.question">
+            <field name="question">AND FROM : </field>
+            <field name="type">textbox</field>
+            <field name="page_id" ref="its_mrp_product_survey_sample.specification_shaping_page"/>
+        </record>
+        <record id="specification_question_and_to" model="survey.question">
+            <field name="question">TO: </field>
+            <field name="type">textbox</field>
+            <field name="page_id" ref="its_mrp_product_survey_sample.specification_shaping_page"/>
+        </record>
+
+
+        <!--    Define the simple choice value for some questions    -->
+        <record id="specification_label_stapling" model="survey.label">
+            <field name="value">Stapling</field>
+            <field name="question_id" ref="its_mrp_product_survey_sample.specification_question_fixation"/>
+        </record>
+        <record id="specification_label_bonding" model="survey.label">
+            <field name="value">Bonding</field>
+            <field name="question_id" ref="its_mrp_product_survey_sample.specification_question_fixation"/>
+        </record>
+        <record id="specification_label_header" model="survey.label">
+            <field name="value">Header</field>
+            <field name="question_id" ref="its_mrp_product_survey_sample.specification_question_layout"/>
+        </record>
+        <record id="specification_label_footer" model="survey.label">
+            <field name="value">Footer</field>
+            <field name="question_id" ref="its_mrp_product_survey_sample.specification_question_layout"/>
+        </record>
+
+        <record id="specification_label_side_g" model="survey.label">
+            <field name="value">G</field>
+            <field name="question_id" ref="its_mrp_product_survey_sample.specification_question_side"/>
+        </record>
+        <record id="specification_label_side_horse" model="survey.label">
+            <field name="value">Cheval</field>
+            <field name="question_id" ref="its_mrp_product_survey_sample.specification_question_side"/>
+        </record>
+        <record id="specification_label_side_d" model="survey.label">
+            <field name="value">D</field>
+            <field name="question_id" ref="its_mrp_product_survey_sample.specification_question_side"/>
+        </record>
+        <record id="specification_label_side_flat" model="survey.label">
+            <field name="value">Flat</field>
+            <field name="question_id" ref="its_mrp_product_survey_sample.specification_question_side"/>
+        </record>
+
+    </data>
+</odoo>
+
+

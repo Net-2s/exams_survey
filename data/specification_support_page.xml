@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="0">
+        <!-- Creating the support page for the sample specification sheet-->
+        <record id="specification_support_page" model="survey.page">
+            <field name="title">Support</field>
+            <field name="survey_id" ref="its_mrp_product_survey_sample.specification_sheet_sample"/>
+        </record>
+
+        <!-- Creating questions for the header section-->
+        <record id="specification_question_is_paper" model="survey.question">
+            <field name="question">Paper ?</field>
+            <field name="column_nb">6</field>
+            <field name="type">simple_choice</field>
+            <field name="page_id" ref="its_mrp_product_survey_sample.specification_support_page"/>
+        </record>
+        <record id="specification_question_paper_cover" model="survey.question">
+            <field name="question">If paper cover. </field>
+            <field name="type">textbox</field>
+            <field name="page_id" ref="its_mrp_product_survey_sample.specification_support_page"/>
+        </record>
+        <record id="specification_question_paper_int" model="survey.question">
+            <field name="question">If paper int. </field>
+            <field name="type">textbox</field>
+            <field name="page_id" ref="its_mrp_product_survey_sample.specification_support_page"/>
+        </record>
+        <record id="specification_question_is_pvc" model="survey.question">
+            <field name="question">P.V.C ?</field>
+            <field name="column_nb">6</field>
+            <field name="type">simple_choice</field>
+            <field name="page_id" ref="its_mrp_product_survey_sample.specification_support_page"/>
+        </record>
+        <record id="specification_question_pvc_thickness" model="survey.question">
+            <field name="question">If P.V.C thickness: </field>
+            <field name="type">textbox</field>
+            <field name="page_id" ref="its_mrp_product_survey_sample.specification_support_page"/>
+        </record>
+        <record id="specification_question_support_type" model="survey.question">
+            <field name="question">Support type</field>
+            <field name="type">multiple_choice</field>
+            <field name="page_id" ref="its_mrp_product_survey_sample.specification_support_page"/>
+        </record>
+
+        <!--    Define the multiple choice value for some questions    -->
+        <record id="specification_label_yes_its_paper" model="survey.label">
+            <field name="value">YES</field>
+            <field name="question_id" ref="its_mrp_product_survey_sample.specification_question_is_paper"/>
+        </record>
+        <record id="specification_label_its_not_paper" model="survey.label">
+            <field name="value">NO</field>
+            <field name="question_id" ref="its_mrp_product_survey_sample.specification_question_is_paper"/>
+        </record>
+        <record id="specification_label_yes_its_pvc" model="survey.label">
+            <field name="value">YES</field>
+            <field name="question_id" ref="its_mrp_product_survey_sample.specification_question_is_pvc"/>
+        </record>
+        <record id="specification_label_its_not_pvc" model="survey.label">
+            <field name="value">NO</field>
+            <field name="question_id" ref="its_mrp_product_survey_sample.specification_question_is_pvc"/>
+        </record>
+
+        <record id="specification_label_vinyl" model="survey.label">
+            <field name="value">Vinyl</field>
+            <field name="question_id" ref="its_mrp_product_survey_sample.specification_question_support_type"/>
+        </record>
+        <record id="specification_label_tyvet" model="survey.label">
+            <field name="value">Tyvet</field>
+            <field name="question_id" ref="its_mrp_product_survey_sample.specification_question_support_type"/>
+        </record>
+        <record id="specification_label_others" model="survey.label">
+            <field name="value">Others</field>
+            <field name="question_id" ref="its_mrp_product_survey_sample.specification_question_support_type"/>
+        </record>
+
+    </data>
+</odoo>
+
+

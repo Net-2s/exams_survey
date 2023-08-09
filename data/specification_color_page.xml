@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="0">
+        <!-- Creating the Color page for the sample specification sheet-->
+        <record id="specification_color_page" model="survey.page">
+            <field name="title">Colors</field>
+            <field name="survey_id" ref="its_mrp_product_survey_sample.specification_sheet_sample"/>
+        </record>
+
+        <!-- Creating questions for the header section-->
+        <record id="specification_question_cover_r" model="survey.question">
+            <field name="question">Cover : R°</field>
+            <field name="type">textbox</field>
+            <field name="page_id" ref="its_mrp_product_survey_sample.specification_color_page"/>
+        </record>
+        <record id="specification_question_pantone_ref1" model="survey.question">
+            <field name="question">Ref.Pantone </field>
+            <field name="type">free_text</field>
+            <field name="page_id" ref="its_mrp_product_survey_sample.specification_color_page"/>
+        </record>
+        <record id="specification_question_cover_v" model="survey.question">
+            <field name="question">Cover : V°</field>
+            <field name="type">textbox</field>
+            <field name="page_id" ref="its_mrp_product_survey_sample.specification_color_page"/>
+        </record>
+        <record id="specification_question_pantone_ref2" model="survey.question">
+            <field name="question">Ref.Pantone </field>
+            <field name="type">free_text</field>
+            <field name="page_id" ref="its_mrp_product_survey_sample.specification_color_page"/>
+        </record>
+        <record id="specification_question_interior" model="survey.question">
+            <field name="question">Interior</field>
+            <field name="type">textbox</field>
+            <field name="page_id" ref="its_mrp_product_survey_sample.specification_color_page"/>
+        </record>
+        <record id="specification_question_pantone_ref3" model="survey.question">
+            <field name="question">Ref.Pantone </field>
+            <field name="type">free_text</field>
+            <field name="page_id" ref="its_mrp_product_survey_sample.specification_color_page"/>
+        </record>
+
+    </data>
+</odoo>
+
+

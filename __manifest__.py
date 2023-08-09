@@ -12,24 +12,21 @@
 
     'author': "My Company",
     'website': "http://www.yourcompany.com",
-
-    # Categories can be used to filter modules in modules listing
-    # Check https://github.com/odoo/odoo/blob/master/odoo/addons/base/module/module_data.xml
-    # for the full list
     'category': 'Uncategorized',
-    'version': '0.1',
+    'version': '11.0.0.1',
 
     # any module necessary for this one to work correctly
-    'depends': ['base'],
+    'depends': ['base', 'survey'],
 
     # always loaded
     'data': [
-        # 'security/ir.model.access.csv',
-        'views/views.xml',
-        'views/templates.xml',
-    ],
-    # only loaded in demonstration mode
-    'demo': [
-        'demo/demo.xml',
+        'data/specification_sheet_sample.xml',
+        'data/specification_header_page.xml',
+        'data/specification_finished_format_page.xml',
+        'data/specification_color_page.xml',
+        'data/specification_support_page.xml',
+        'data/specification_creation_page.xml',
+        'data/specification_shaping_page.xml',
+        'data/specification_observation_page.xml',
     ],
 }
