@@ -58,7 +58,6 @@
             <field name="page_id" ref="its_mrp_product_survey_sample.specification_shaping_page"/>
         </record>
 
-
         <!--    Define the simple and multiple choice value for some questions    -->
         <record id="specification_label_stapling" model="survey.label">
             <field name="value">Stapling</field>
@@ -76,7 +75,6 @@
             <field name="value">Footer</field>
             <field name="question_id" ref="its_mrp_product_survey_sample.specification_question_layout"/>
         </record>
-
         <record id="specification_label_side_g" model="survey.label">
             <field name="value">G</field>
             <field name="question_id" ref="its_mrp_product_survey_sample.specification_question_side"/>
@@ -93,7 +91,6 @@
             <field name="value">Flat</field>
             <field name="question_id" ref="its_mrp_product_survey_sample.specification_question_side"/>
         </record>
-
     </data>
 </odoo>
 

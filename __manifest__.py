@@ -16,7 +16,7 @@
     # odoo dependencies
     'depends': ['base', 'survey'],
 
-    # always loaded
+    # setting data files
     'data': [
         'data/specification_sheet_sample.xml',
         'data/specification_header_page.xml',

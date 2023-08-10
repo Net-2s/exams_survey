@@ -7,7 +7,6 @@
             <field name="survey_type">manufacturing</field>
             <field name="users_can_go_back">True</field>
         </record>
-
     </data>
 </odoo>
 

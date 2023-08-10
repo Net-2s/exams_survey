@@ -125,7 +125,6 @@
             <field name="value">After production</field>
             <field name="question_id" ref="its_mrp_product_survey_sample.specification_question_to_be_delivered"/>
         </record>
-
     </data>
 </odoo>
 
