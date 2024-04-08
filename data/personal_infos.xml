@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="0">
+        <!-- Creating the creation page for the sample specification sheet-->
+        <record id="survey_personal_infos" model="survey.question">
+            <field name="title">Profil de l'apprenant</field>
+            <field name="is_page">True</field>
+            <field name="question_type" eval="False" />
+            <field name="sequence">22</field>
+           <field name="survey_id" ref="exams_survey.specification_survey_sheet"/>
+        </record>
+
+        <!-- Creating questions for the creation page-->
+        <record id="personal_infos_question_one" model="survey.question">
+            <field name="title">Avez-vous fréquenté l’école ? (au moins une année entière)</field>
+            <field name="question_type">simple_choice</field>
+            <field name="constr_mandatory">True</field>
+            <field name="is_scored_question">True</field>
+            <field name="answer_score">2.0</field>
+            <field name="sequence">23</field>
+            <field name="survey_id" ref="exams_survey.specification_survey_sheet"/>
+            <field name="page_id" ref="exams_survey.survey_personal_infos"/>
+        </record>
+        <record id="choices_one_personal_infos" model="survey.question.answer">
+            <field name="value">Oui</field>
+            <field name="is_correct">True</field>
+            <field name="answer_score">2.0</field>
+            <field name="question_id" ref="exams_survey.personal_infos_question_one"/>
+        </record>
+        <record id="choices_two_personal_infos" model="survey.question.answer">
+            <field name="value">NON</field>
+            <field name="is_correct">False</field>
+            <field name="question_id" ref="exams_survey.personal_infos_question_one"/>
+        </record>
+
+
+        <!--    Definition of question 2 with its answers  -->
+         <record id="personal_infos_question_two" model="survey.question">
+            <field name="title">Avez-vous terminé l’école primaire ?</field>
+            <field name="question_type">simple_choice</field>
+            <field name="constr_mandatory">True</field>
+            <field name="is_scored_question">True</field>
+             <field name="answer_score">2.0</field>
+            <field name="sequence">24</field>
+             <field name="survey_id" ref="exams_survey.specification_survey_sheet"/>
+            <field name="page_id" ref="exams_survey.survey_personal_infos"/>
+        </record>
+        <record id="yes_finish_primary_school" model="survey.question.answer">
+            <field name="value">OUI</field>
+            <field name="is_correct">True</field>
+            <field name="answer_score">2.0</field>
+            <field name="question_id" ref="exams_survey.personal_infos_question_two"/>
+        </record>
+        <record id="no_finish_primary_school" model="survey.question.answer">
+            <field name="value">NON</field>
+            <field name="is_correct">False</field>
+            <field name="question_id" ref="exams_survey.personal_infos_question_two"/>
+        </record>
+
+        <!--    Definition of question 3 with its answers  -->
+           <record id="personal_infos_question_three" model="survey.question">
+            <field name="title">Avez-vous  suivi l'école ?</field>
+            <field name="question_type">simple_choice</field>
+            <field name="constr_mandatory">True</field>
+            <field name="is_scored_question">True</field>
+             <field name="answer_score">2.0</field>
+            <field name="sequence">25</field>
+             <field name="survey_id" ref="exams_survey.specification_survey_sheet"/>
+            <field name="page_id" ref="exams_survey.survey_personal_infos"/>
+        </record>
+
+         <record id="yes_gone_to_school" model="survey.question.answer">
+            <field name="value">OUI</field>
+            <field name="is_correct">True</field>
+            <field name="answer_score">2.0</field>
+            <field name="question_id" ref="exams_survey.personal_infos_question_three"/>
+        </record>
+        <record id="no_gone_to_school" model="survey.question.answer">
+            <field name="value">NON</field>
+            <field name="is_correct">False</field>
+            <field name="question_id" ref="exams_survey.personal_infos_question_three"/>
+        </record>
+
+         <!--    Definition of question 4 with its answers  -->
+           <record id="personal_infos_question_four" model="survey.question">
+            <field name="title">Savez vous lire dans une autre langue que votre langue d'origine (arabe, …)</field>
+            <field name="question_type">simple_choice</field>
+            <field name="constr_mandatory">True</field>
+            <field name="is_scored_question">True</field>
+             <field name="answer_score">2.0</field>
+            <field name="sequence">26</field>
+             <field name="survey_id" ref="exams_survey.specification_survey_sheet"/>
+            <field name="page_id" ref="exams_survey.survey_personal_infos"/>
+        </record>
+        <record id="yes_speak_local_language" model="survey.question.answer">
+            <field name="value">OUI</field>
+            <field name="is_correct">True</field>
+            <field name="answer_score">2.0</field>
+            <field name="question_id" ref="exams_survey.personal_infos_question_four"/>
+        </record>
+        <record id="no_speak_local_language" model="survey.question.answer">
+            <field name="value">NON</field>
+            <field name="is_correct">False</field>
+            <field name="question_id" ref="exams_survey.personal_infos_question_four"/>
+        </record>
+
+        <!--    Definition of question 5 with its answers  -->
+           <record id="personal_infos_question_five" model="survey.question">
+            <field name="title">Avez-vous suivi d'autres cours de français depuis que vous êtes en France (OFII, association, autre, …)</field>
+            <field name="question_type">simple_choice</field>
+            <field name="constr_mandatory">True</field>
+            <field name="is_scored_question">True</field>
+             <field name="answer_score">1.0</field>
+            <field name="sequence">27</field>
+             <field name="survey_id" ref="exams_survey.specification_survey_sheet"/>
+            <field name="page_id" ref="exams_survey.survey_personal_infos"/>
+        </record>
+        <record id="yes_speak_french" model="survey.question.answer">
+            <field name="value">OUI</field>
+            <field name="is_correct">True</field>
+            <field name="answer_score">1.0</field>
+            <field name="question_id" ref="exams_survey.personal_infos_question_five"/>
+        </record>
+        <record id="no_speak_french" model="survey.question.answer">
+            <field name="value">NON</field>
+            <field name="is_correct">False</field>
+            <field name="question_id" ref="exams_survey.personal_infos_question_five"/>
+        </record>
+
+        <!--    Definition of question 6 with its answers  -->
+           <record id="personal_infos_question_six" model="survey.question">
+            <field name="title">Savez vous utiliser un ordinateur ? (taper sur un clavier même lentement)</field>
+            <field name="question_type">simple_choice</field>
+            <field name="constr_mandatory">True</field>
+            <field name="is_scored_question">True</field>
+             <field name="answer_score">2.0</field>
+            <field name="sequence">28</field>
+             <field name="survey_id" ref="exams_survey.specification_survey_sheet"/>
+            <field name="page_id" ref="exams_survey.survey_personal_infos"/>
+        </record>
+        <record id="yes_use_machine" model="survey.question.answer">
+            <field name="value">OUI</field>
+            <field name="is_correct">True</field>
+            <field name="answer_score">2.0</field>
+            <field name="question_id" ref="exams_survey.personal_infos_question_six"/>
+        </record>
+        <record id="no_use_machine" model="survey.question.answer">
+            <field name="value">NON</field>
+            <field name="is_correct">False</field>
+            <field name="question_id" ref="exams_survey.personal_infos_question_six"/>
+        </record>
+
+        <!--    Definition of question 7 with its answers  -->
+           <record id="personal_infos_question_seven" model="survey.question">
+            <field name="title">Savez vous utiliser une souris ?</field>
+            <field name="question_type">simple_choice</field>
+            <field name="constr_mandatory">True</field>
+            <field name="is_scored_question">True</field>
+             <field name="answer_score">2.0</field>
+            <field name="sequence">29</field>
+             <field name="survey_id" ref="exams_survey.specification_survey_sheet"/>
+            <field name="page_id" ref="exams_survey.survey_personal_infos"/>
+        </record>
+        <record id="yes_use_mouse" model="survey.question.answer">
+            <field name="value">OUI</field>
+            <field name="is_correct">True</field>
+            <field name="answer_score">1.0</field>
+            <field name="question_id" ref="exams_survey.personal_infos_question_seven"/>
+        </record>
+        <record id="no_use_mouse" model="survey.question.answer">
+            <field name="value">NON</field>
+            <field name="is_correct">False</field>
+            <field name="question_id" ref="exams_survey.personal_infos_question_seven"/>
+        </record>
+
+    </data>
+</odoo>
+
+

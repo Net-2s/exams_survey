@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="0">
+        <!-- Creating the creation page for the sample specification sheet-->
+        <record id="survey_section_one" model="survey.question">
+            <field name="title">Partie 1 : Compréhension écrite 3pts</field>
+            <field name="is_page">True</field>
+            <field name="question_type" eval="False" />
+            <field name="sequence">1</field>
+            <field name="description" type="html"><p>Lisez le texte suivant et cochez la réponse qui convient :</p>
+
+            <p>Bonjour. Je m’appelle Marie. J’ai 25 ans. Je viens de Paris. Je suis étudiante.
+                J’aime la musique et le cinéma.</p></field>
+            <field name="survey_id" ref="exams_survey.specification_survey_sheet"/>
+        </record>
+
+        <!-- Creating questions for the creation page-->
+        <record id="section_one_question_one" model="survey.question">
+            <field name="title">Comment s’appelle la personne qui parle ?</field>
+            <field name="question_type">simple_choice</field>
+            <field name="constr_mandatory">True</field>
+            <field name="is_scored_question">True</field>
+            <field name="answer_score">1.0</field>
+            <field name="sequence">2</field>
+            <field name="survey_id" ref="exams_survey.specification_survey_sheet"/>
+            <field name="page_id" ref="exams_survey.survey_section_one"/>
+        </record>
+        <record id="choices_one_question_one" model="survey.question.answer">
+            <field name="value">Pierre</field>
+            <field name="is_correct">False</field>
+            <field name="question_id" ref="exams_survey.section_one_question_one"/>
+        </record>
+        <record id="choices_two_question_one" model="survey.question.answer">
+            <field name="value">Marie</field>
+            <field name="is_correct">True</field>
+            <field name="answer_score">1.0</field>
+            <field name="question_id" ref="exams_survey.section_one_question_one"/>
+        </record>
+        <record id="choices_three_question_one" model="survey.question.answer">
+            <field name="value">Jean</field>
+            <field name="is_correct">False</field>
+            <field name="question_id" ref="exams_survey.section_one_question_one"/>
+        </record>
+
+
+        <!--    Definition of question 2 with its answers  -->
+         <record id="section_one_question_two" model="survey.question">
+            <field name="title">Quel âge a-t-elle ?</field>
+            <field name="question_type">simple_choice</field>
+            <field name="constr_mandatory">True</field>
+            <field name="is_scored_question">True</field>
+             <field name="answer_score">1.0</field>
+             <field name="sequence">5</field>
+             <field name="survey_id" ref="exams_survey.specification_survey_sheet"/>
+            <field name="page_id" ref="exams_survey.survey_section_one"/>
+        </record>
+        <record id="choices_one_question_two" model="survey.question.answer">
+            <field name="value">25 ans</field>
+            <field name="is_correct">True</field>
+            <field name="answer_score">1.0</field>
+            <field name="question_id" ref="exams_survey.section_one_question_two"/>
+        </record>
+        <record id="choices_two_question_two" model="survey.question.answer">
+            <field name="value">20 ans</field>
+            <field name="is_correct">False</field>
+            <field name="question_id" ref="exams_survey.section_one_question_two"/>
+        </record>
+        <record id="choices_three_question_two" model="survey.question.answer">
+            <field name="value">30 ans</field>
+            <field name="is_correct">False</field>
+            <field name="question_id" ref="exams_survey.section_one_question_two"/>
+        </record>
+
+        <!--    Definition of question 3 with its answers  -->
+         <record id="section_one_question_three" model="survey.question">
+            <field name="title">D’où vient-elle ?</field>
+            <field name="question_type">simple_choice</field>
+            <field name="constr_mandatory">True</field>
+            <field name="is_scored_question">True</field>
+             <field name="answer_score">1.0</field>
+             <field name="sequence">6</field>
+             <field name="survey_id" ref="exams_survey.specification_survey_sheet"/>
+            <field name="page_id" ref="exams_survey.survey_section_one"/>
+        </record>
+        <record id="choices_one_question_three" model="survey.question.answer">
+            <field name="value">Londres</field>
+            <field name="is_correct">False</field>
+            <field name="question_id" ref="exams_survey.section_one_question_three"/>
+        </record>
+        <record id="choices_two_question_three" model="survey.question.answer">
+            <field name="value">New York</field>
+            <field name="is_correct">False</field>
+            <field name="question_id" ref="exams_survey.section_one_question_three"/>
+        </record>
+        <record id="choices_three_question_three" model="survey.question.answer">
+            <field name="value">Paris</field>
+            <field name="is_correct">True</field>
+            <field name="answer_score">1.0</field>
+            <field name="question_id" ref="exams_survey.section_one_question_three"/>
+        </record>
+
+
+    </data>
+</odoo>
+
+

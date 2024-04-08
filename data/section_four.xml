@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="0">
+        <!-- Creating the creation page for the sample specification sheet-->
+        <record id="survey_section_four" model="survey.question">
+            <field name="title">Partie 4: Production orale 2 pts</field>
+            <field name="is_page">True</field>
+            <field name="question_type" eval="False" />
+            <field name="sequence">15</field>
+            <field name="survey_id" ref="exams_survey.specification_survey_sheet"/>
+        </record>
+
+        <!-- Creating questions for the creation page-->
+        <record id="section_four_question_one" model="survey.question">
+            <field name="title">Dites votre nom et votre nationalité.</field>
+            <field name="question_type">char_box</field>
+            <field name="constr_mandatory">False</field>
+            <field name="validation_required">True</field>
+            <field name="validation_length_min">49</field>
+            <field name="validation_length_max">51</field>
+            <field name="answer_score">2.0</field>
+            <field name="sequence">16</field>
+            <field name="question_placeholder">ex: Mon nom est ... et ma notionalité est ...</field>
+            <field name="survey_id" ref="exams_survey.specification_survey_sheet"/>
+            <field name="page_id" ref="exams_survey.survey_section_four"/>
+        </record>
+
+    </data>
+</odoo>
+
+
