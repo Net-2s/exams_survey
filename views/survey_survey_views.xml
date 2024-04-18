@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="survey_survey_view_form_inherit" model="ir.ui.view">
+        <field name="name">survey_survey.view.form_inherit</field>
+        <field name="model">survey.survey</field>
+        <field name="inherit_id" ref="survey.survey_survey_view_form"/>
+        <field name="arch" type="xml">
+            <field name="scoring_success_min" position="after">
+                <field name="entry_test"  />
+            </field>
+        </field>
+    </record>
+
+</odoo>

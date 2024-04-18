@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="survey_survey_view_tree_inherits" model="ir.ui.view">
+        <field name="name">survey.survey.view.tree_inherits</field>
+        <field name="model">survey.survey</field>
+        <field name="inherit_id" ref="survey.survey_survey_view_tree"/>
+        <field name="arch" type="xml">
+            <xpath expr="//tree" position="inside">
+                <header>
+                    <button name="action_load_sample_test_level"  string="Nouveau Test"  type="object" class="oe_highlight" />
+                </header>
+            </xpath>
+        </field>
+    </record>
+    
+
+</odoo>
