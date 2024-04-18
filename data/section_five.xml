@@ -20,9 +20,7 @@
             <field name="question_type">char_box</field>
             <field name="constr_mandatory">True</field>
             <field name="is_scored_question">True</field>
-            <field name="validation_required">True</field>
-            <field name="validation_length_min">1</field>
-            <field name="answer_score">0.0</field>
+            <field name="answer_score">3.0</field>
             <field name="sequence">18</field>
             <field name="survey_id" ref="exams_survey.specification_survey_sheet"/>
             <field name="page_id" ref="exams_survey.survey_section_five"/>
@@ -35,8 +33,6 @@
             <field name="question_type">char_box</field>
             <field name="constr_mandatory">True</field>
             <field name="is_scored_question">True</field>
-            <field name="validation_required">True</field>
-            <field name="validation_length_min">1</field>
             <field name="answer_score">3.0</field>
             <field name="sequence">19</field>
             <field name="survey_id" ref="exams_survey.specification_survey_sheet"/>
@@ -50,8 +46,6 @@
             <field name="question_type">char_box</field>
             <field name="constr_mandatory">True</field>
             <field name="is_scored_question">True</field>
-            <field name="validation_required">True</field>
-            <field name="validation_length_min">1</field>
             <field name="answer_score">3.0</field>
             <field name="sequence">20</field>
             <field name="survey_id" ref="exams_survey.specification_survey_sheet"/>
