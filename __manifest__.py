@@ -15,7 +15,7 @@
     'application': True,
 
     # odoo dependencies
-    'depends': ['base', 'survey'],
+    'depends': ['base', 'survey', 'polyx_lead'],
 
     # setting data files
     'data': [
@@ -23,6 +23,7 @@
         'views/survey_survey_views.xml',
         'views/survey_template.xml',
         'views/survey_test_template_view.xml',
+        'views/crm_lead_form_view.xml',
         'data/specification_survey_sheet.xml',
         'data/section_one.xml',
         'data/section_two.xml',

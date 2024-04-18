@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record model="ir.ui.view" id="crm_lead_form_view_inherit">
+            <field name="name">crm.lead.form.inherited</field>
+            <field name="model">crm.lead</field>
+            <field name="inherit_id" ref="polyx_lead.crm_lead_form_view_inherited"/>
+            <field name="arch" type="xml">
+
+                <button name="action_set_won_rainbowman" position="after">
+                    <!-- <field name="prospect_test"invisible="1"/> -->
+                    <button name="launch_folder_test" string="Test d'entrée" 
+                        type="object" class="oe_highlight" />
+                </button>
+                <xpath expr="//field[@name='training_duration']" position="before">
+                        <field name="exam_to_pass" />
+                        <field name="recommanded_hours" />
+                        <field name="entry_test_score" />
+                </xpath>
+
+            </field>
+        </record>
+
+        <record model="ir.ui.view" id="crm_lead_form_quick_create_inherit">
+            <field name="name">crm.lead.inherited</field>
+            <field name="model">crm.lead</field>
+            <field name="inherit_id" ref="polyx_lead.crm_lead_form_quick_create_inherited"/>
+            <field name="arch" type="xml">
+
+                <xpath expr="//field[@name='source']" position="after" >
+                    <field name="exam_to_pass" required="1"/>
+                </xpath>
+
+            </field>
+        </record>
+    </data>
+</odoo>

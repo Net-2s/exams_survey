@@ -1,11 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="3.0" encoding="utf-8"?>
 <odoo>
-    <data noupdate="0">
+    <data noupdate="1">
         <!-- Creating the creation page for the sample specification sheet-->
         <record id="survey_section_five" model="survey.question">
             <field name="title">Production écrite (sur papier ou pc)</field>
             <field name="is_page">True</field>
             <field name="question_type" eval="False" />
+            <field name="random_questions_count">1</field>
             <field name="sequence">17</field>
             <field name="survey_id" ref="exams_survey.specification_survey_sheet"/>
             <field name="description" type="html">
@@ -15,56 +16,64 @@
 
         <!-- Creating questions for the creation page-->
         <record id="section_five_question_one" model="survey.question">
-            <field name="title">Le chat du voisin est  monté sur le toit</field>
+            <field name="title">Ecrivez cette phrase :</field>
             <field name="question_type">char_box</field>
             <field name="constr_mandatory">True</field>
             <field name="is_scored_question">True</field>
             <field name="validation_required">True</field>
-            <field name="validation_length_min">38</field>
-            <field name="validation_length_max">39</field>
+            <field name="validation_length_min">1</field>
             <field name="answer_score">0.0</field>
             <field name="sequence">18</field>
             <field name="survey_id" ref="exams_survey.specification_survey_sheet"/>
             <field name="page_id" ref="exams_survey.survey_section_five"/>
+            <field name="description" type="html">
+               <p>Le chat du voisin est  monté sur le toit</p>
+            </field>
         </record>
         <record id="section_five_question_two" model="survey.question">
+            <field name="title">Ecrivez cette phrase :</field>
             <field name="question_type">char_box</field>
             <field name="constr_mandatory">True</field>
             <field name="is_scored_question">True</field>
             <field name="validation_required">True</field>
-            <field name="validation_length_min">41</field>
-            <field name="validation_length_max">42</field>
-            <field name="answer_score">1.0</field>
+            <field name="validation_length_min">1</field>
+            <field name="answer_score">3.0</field>
             <field name="sequence">19</field>
             <field name="survey_id" ref="exams_survey.specification_survey_sheet"/>
             <field name="page_id" ref="exams_survey.survey_section_five"/>
-            <field name="title">Ou Mon cousin se marie au mois de janvier</field>
+            <field name="description" type="html">
+               <p>Mon cousin se marie au mois de janvier</p>
+            </field>
         </record>
         <record id="section_five_question_three" model="survey.question">
+            <field name="title">Ecrivez cette phrase :</field>
             <field name="question_type">char_box</field>
             <field name="constr_mandatory">True</field>
             <field name="is_scored_question">True</field>
             <field name="validation_required">True</field>
-            <field name="validation_length_min">37</field>
-            <field name="validation_length_max">38</field>
-            <field name="answer_score">1.0</field>
+            <field name="validation_length_min">1</field>
+            <field name="answer_score">3.0</field>
             <field name="sequence">20</field>
             <field name="survey_id" ref="exams_survey.specification_survey_sheet"/>
             <field name="page_id" ref="exams_survey.survey_section_five"/>
-            <field name="title">Ou Mon fils est en classe de troisième</field>
+            <field name="description" type="html">
+               <p>Mon fils est en classe de troisième</p>
+            </field>
         </record>
         <record id="section_five_question_four" model="survey.question">
+            <field name="title">Ecrivez cette phrase :</field>
             <field name="question_type">char_box</field>
             <field name="constr_mandatory">True</field>
             <field name="is_scored_question">True</field>
             <field name="validation_required">True</field>
-            <field name="validation_length_min">31</field>
-            <field name="validation_length_max">32</field>
-            <field name="answer_score">1.0</field>
+            <field name="validation_length_min">1</field>
+            <field name="answer_score">3.0</field>
             <field name="sequence">21</field>
             <field name="survey_id" ref="exams_survey.specification_survey_sheet"/>
             <field name="page_id" ref="exams_survey.survey_section_five"/>
-            <field name="title">Ou La mairie est fermée le lundi</field>
+            <field name="description" type="html">
+               <p>La mairie est fermée le lundi</p>
+            </field>
         </record>
 
     </data>

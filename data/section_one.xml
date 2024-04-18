@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-    <data noupdate="0">
+    <data noupdate="1">
         <!-- Creating the creation page for the sample specification sheet-->
         <record id="survey_section_one" model="survey.question">
             <field name="title">Partie 1 : Compréhension écrite 3pts</field>
             <field name="is_page">True</field>
             <field name="question_type" eval="False" />
+            <field name="random_questions_count">3</field>
             <field name="sequence">1</field>
             <field name="description" type="html"><p>Lisez le texte suivant et cochez la réponse qui convient :</p>
 
@@ -22,6 +23,10 @@
             <field name="is_scored_question">True</field>
             <field name="answer_score">1.0</field>
             <field name="sequence">2</field>
+            <field name="description" type="html">
+                <p> <strong>Texte: </strong> Bonjour. Je m’appelle Marie. J’ai 25 ans. Je viens de Paris. Je suis étudiante.
+                J’aime la musique et le cinéma.</p>
+            </field>
             <field name="survey_id" ref="exams_survey.specification_survey_sheet"/>
             <field name="page_id" ref="exams_survey.survey_section_one"/>
         </record>
@@ -51,6 +56,10 @@
             <field name="is_scored_question">True</field>
              <field name="answer_score">1.0</field>
              <field name="sequence">5</field>
+             <field name="description" type="html">
+                <p> <strong>Texte: </strong> Bonjour. Je m’appelle Marie. J’ai 25 ans. Je viens de Paris. Je suis étudiante.
+                J’aime la musique et le cinéma.</p>
+            </field>
              <field name="survey_id" ref="exams_survey.specification_survey_sheet"/>
             <field name="page_id" ref="exams_survey.survey_section_one"/>
         </record>
@@ -79,6 +88,10 @@
             <field name="is_scored_question">True</field>
              <field name="answer_score">1.0</field>
              <field name="sequence">6</field>
+             <field name="description" type="html">
+                <p> <strong>Texte: </strong> Bonjour. Je m’appelle Marie. J’ai 25 ans. Je viens de Paris. Je suis étudiante.
+                J’aime la musique et le cinéma.</p>
+            </field>
              <field name="survey_id" ref="exams_survey.specification_survey_sheet"/>
             <field name="page_id" ref="exams_survey.survey_section_one"/>
         </record>

@@ -6,11 +6,17 @@
     <template id="question_container_inherit" inherit_id="survey.question_container" name="Survey: question container">
 
         <xpath expr="//div[@t-field='question.description']" position="before">
-            <div t-if="question.question_image" t-field='question.description' class="">
+            <div t-if="question.question_image or question.question_audio " t-field='question.description' class="">
                 <div  t-field="question.question_image"
                 class=" d-flex my-3 justify-content-center"
                 t-options="{'widget': 'image', 'alt-field': 'name', 'itemprop': 'image'}"/>
+                 <!-- <div  t-field="question.question_audio"
+                class=" d-flex my-3 justify-content-center"
+                t-options="{'widget': 'audio'}"/> -->
+                <!-- <audio t-att-src="'data:audio/mpeg;base64,' + question.question_audio"/> -->
+                <!-- <t t-esc="question.question_audio_filename" />   -->
             </div>
+           
             
         </xpath>
     </template>
