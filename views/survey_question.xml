@@ -8,9 +8,8 @@
             <field name="arch" type="xml">
                 <xpath expr="//field[@name='question_type']" position="after">
                     <field name="question_image_filename" invisible="1"/>
-                    <field name="question_audio_filename" invisible="1"/>
                     <field name="question_image" attrs="{'visible': [('is_page', '=', False)]}" width="200px" filename="value_image_filename" options="{'accepted_file_extensions': 'image/*'}"/>
-                    <field name="question_audio" widget="audio" filename="value_audio_filename" options="{'accepted_file_extensions': 'audio/*'}"/>
+                    <field name="question_audios" widget="many2many_binary"/>
                 </xpath>
             </field>
         </record>
