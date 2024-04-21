@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="survey_user_input_view_form_inherits" model="ir.ui.view">
+        <field name="name">survey_user_input.view.form_inherits</field>
+        <field name="model">survey.user_input</field>
+        <field name="inherit_id" ref="survey.survey_user_input_view_form" />
+        <field name="arch" type="xml">
+            <field name="partner_id" position="before">
+                <field name="scoring_total" />
+                <field name="recommended_hours" readonly="1" />
+            </field>
+        </field>
+    </record>
+
+</odoo>

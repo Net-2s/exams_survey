@@ -5,6 +5,12 @@
     
     <template id="question_container_inherit" inherit_id="survey.question_container" name="Survey: question container">
 
+        <!-- Description plus visible -->
+        <xpath expr="//div[@t-field='question.description']" position="attributes">
+            <attribute name="class">p-1 fs-5 oe_no_empty mt-1 text-break</attribute>
+        </xpath>
+
+
         <xpath expr="//div[@t-field='question.description']" position="before">
             <div t-if="question.question_image or question.question_audios " t-field='question.description' class="">
                 <div t-if="question.question_image" t-field="question.question_image"
@@ -22,20 +28,30 @@
             </t>
             
         </xpath>
+
+        
     </template>
 
     <template id="survey_fill_form_done_inherit_test" inherit_id="survey.survey_fill_form_done">
-            <xpath  expr="//div[hasclass('o_survey_finished')]/div[@class='row']/div" position="replace">
-                <div class="col">
-                    <t t-if="survey.scoring_type != 'no_scoring' and survey.scoring_success_min">
-                        <div>Félicitqtion vous avez terminé le test!</div>
-                        <div>Vous avez obtenu un total de <strong> <t t-esc="answer.scoring_total"/> points (<t t-esc="answer.scoring_percentage" />%) </strong></div>
-                        <div>De ce faites, vous devez suivre un minimun de <t t-esc="answer._compute_recommended_hours()" /> heures de cours</div>
-                    </t>
-                    <!-- <t t-call="survey.survey_button_retake"/>
-                    <div t-if="survey.scoring_type != 'scoring_without_answers'" class="o_survey_review">
-                        If you wish, you can <a t-att-href="'/survey/print/%s?answer_token=%s&amp;review=True' % (survey.access_token, answer.access_token)">review your answers</a>
-                    </div> -->
+            <xpath  expr="//div[hasclass('o_survey_finished')]" position="attributes">
+                <attribute name="t-if">survey.entry_test == False</attribute>
+            </xpath>
+            <xpath  expr="//div[hasclass('o_survey_finished')]" position="after">
+                <div t-if="survey.entry_test">
+                    <h1 class="text-center text-primary">Test terminé !!!</h1>
+                    <div class="text-center">Nous vous remercions d'avoir éffectué ce test </div>
+                    <h3 class="">Resultats:</h3>
+                    <div class="p-4 pt-0 row mt-4">
+                        <div class="col-12 col-md-4 text-success text-center">
+                            <strong> <span style="font-size: 5rem"><t t-esc="answer.scoring_total"/></span> points</strong>
+                        </div>
+                        <div class="col-12 col-md-4 text-warning text-center">
+                            <strong><span style="font-size: 5rem"><t t-esc="answer.scoring_percentage" /></span>%</strong>
+                        </div>
+                        <div class="col-12 col-md-4 text-danger text-center">
+                            <strong><span  style="font-size: 5rem"><t t-esc="answer._compute_recommended_hours()" /></span></strong> h de cours au minimun
+                        </div>
+                    </div>
                 </div>
             
             </xpath>

@@ -41,3 +41,14 @@ class CrmLeadInherit(models.Model):
             'target': 'new',
             'url': '/survey/start/%s?%s' % (self.exam_to_pass.access_token, keep_query('*', answer_token=self.prospect_test.access_token)),
         }
+    
+    def open_test_result(self):
+        self.ensure_one()
+        return {
+            'type': 'ir.actions.act_window',
+            'name': "Test d'entrée",
+            'res_model': 'survey.user_input',
+            'view_type': 'form',
+            'view_mode': 'form',
+            'res_id': self.prospect_test.id,
+        }

@@ -6,7 +6,11 @@
             <field name="model">crm.lead</field>
             <field name="inherit_id" ref="polyx_lead.crm_lead_form_view_inherited"/>
             <field name="arch" type="xml">
-
+                <xpath expr="//button[@name='action_schedule_meeting']" position="before">
+                    <field name="prospect_test" invisible="1" />
+                    <button name="open_test_result" string="Resultat du Test"  class="oe_stat_button" type="object" icon="fa-tags"
+                           attrs="{'invisible': [('prospect_test', '=', False)]}" />
+                </xpath>
                 <button name="action_set_won_rainbowman" position="after">
                     <!-- <field name="prospect_test"invisible="1"/> -->
                     <button name="launch_folder_test" string="Test d'entrée" 
