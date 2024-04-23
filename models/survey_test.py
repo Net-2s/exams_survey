@@ -21,6 +21,7 @@ class SurveySurvey(models.Model):
                 reccord.certification = False
 
                 reccord.access_mode = "token"
+                reccord.is_time_limited = False
                 reccord.scoring_type = "scoring_without_answers"
                 reccord.questions_layout = "page_per_question"
                 reccord.questions_selection = "random"

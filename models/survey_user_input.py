@@ -14,13 +14,19 @@ RESULT_BORNE = [
 class SurveySurvey(models.Model):
     _inherit = 'survey.user_input'
 
+    lead_ids = fields.One2many(
+        comodel_name='crm.lead',
+        string="Participants",
+        inverse_name="prospect_test"
+    )
+    
     recommended_hours =  fields.Float(
         string="Nombre d'heures recommandé:",
         default=0,
         compute="_compute_recommended_hours",
         store=True,
         readonly=False,
-        )
+    )
     
     api.depends('scoring_total')
     def _compute_recommended_hours(self):

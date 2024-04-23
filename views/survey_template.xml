@@ -3,13 +3,52 @@
 
     <data>
     
+    <template id="o_survey_test_main_title_inherit" name="Survey fill header Inherit" inherit_id="survey.survey_fill_header">
+        
+        
+        <xpath expr="div[hasclass('o_survey_nav')]/div/div/div" position="attributes">
+            <attribute name="class" >col-lg-12</attribute>
+        </xpath>
+        <xpath expr="div[hasclass('o_survey_nav')]/div/div/div/h1" position="attributes">
+            <attribute name="class" >o_survey_main_title pt-4 text-center text-primary</attribute>
+        </xpath>
+         
+    </template>
+
+    <template id="survey_fill_form_start_inherit" name="survey fill form start" inherit_id="survey.survey_fill_form_start">
+        <xpath expr="div[hasclass('o_survey_start')]/div/div" position="after">
+
+            <t t-if="len(answer.lead_ids)>0">
+                <span class="mb-3">
+                    <strong>Candidat :</strong>
+                    <t t-esc="answer.lead_ids[-1].first_name"/>
+                    <t t-esc="answer.lead_ids[-1].last_name"/>
+                </span>
+            </t>
+
+        </xpath>
+        <xpath expr="//button[@value='start']/t[@t-if='survey.certification']" position="after">
+            <t t-if="survey.entry_test">
+                Démarrer le test
+            </t>
+        </xpath>
+        <xpath expr="div[hasclass('o_survey_start')]/div" position="before">
+            <div>
+                <img src="static/img/test.png" style="width: 100%; height: auto" />
+            </div>
+        </xpath>
+    </template>
+    
     <template id="question_container_inherit" inherit_id="survey.question_container" name="Survey: question container">
 
         <!-- Description plus visible -->
-        <xpath expr="//div[@t-field='question.description']" position="attributes">
+        <!-- <xpath expr="//div[@t-field='question.description']" position="attributes">
             <attribute name="class">p-1 fs-5 oe_no_empty mt-1 text-break</attribute>
-        </xpath>
+        </xpath> -->
 
+        <h3 t-if="not hide_question_title" position="before">
+            <div t-if="not is_html_empty(question.preambule)" t-field='question.preambule' class="p-1 fs-5 oe_no_empty mt-1 text-break"/>
+        </h3>
 
         <xpath expr="//div[@t-field='question.description']" position="before">
             <div t-if="question.question_image or question.question_audios " t-field='question.description' class="">
@@ -38,9 +77,24 @@
             </xpath>
             <xpath  expr="//div[hasclass('o_survey_finished')]" position="after">
                 <div t-if="survey.entry_test">
-                    <h1 class="text-center text-primary">Test terminé !!!</h1>
-                    <div class="text-center">Nous vous remercions d'avoir éffectué ce test </div>
-                    <h3 class="">Resultats:</h3>
+                    <h1 class="text-center text-primary mb-5">Test terminé !!!</h1>
+                    <div class="text-center fs-4"> 
+                    
+                        <p class="mb-2 ">
+                            Nous vous remercions, 
+                            <t t-if="len(answer.lead_ids)>0">
+                                <strong>
+                                    <t t-esc="answer.lead_ids[-1].first_name"/>
+                                    <t t-esc="answer.lead_ids[-1].last_name"/>
+                                </strong>
+                            </t>
+                            d'avoir éffectué ce test.
+                        </p>
+                        <h3 class="text-primary">
+                            Vos Resultats:
+                        </h3>
+                    </div>
+
                     <div class="p-4 pt-0 row mt-4">
                         <div class="col-12 col-md-4 text-success text-center">
                             <strong> <span style="font-size: 5rem"><t t-esc="answer.scoring_total"/></span> points</strong>

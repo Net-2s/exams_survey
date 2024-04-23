@@ -33,4 +33,9 @@
         'data/section_five.xml',
         'data/personal_infos.xml',
     ],
+    "assets": {
+        "web.assets_frontend": {
+            "exams_survey/static/css/style.css",
+        }
+    },
 }

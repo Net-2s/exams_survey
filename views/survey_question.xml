@@ -11,6 +11,15 @@
                     <field name="question_image" attrs="{'visible': [('is_page', '=', False)]}" width="200px" filename="value_image_filename" options="{'accepted_file_extensions': 'image/*'}"/>
                     <field name="question_audios" widget="many2many_binary"/>
                 </xpath>
+
+                <page string="Description" name="survey_description" position="before">
+                    <page string="Text de Préambule" name="survey_preambule">
+                        <field name="preambule" widget="html"
+                                placeholder="e.g. Guidelines, instructions, picture, ... to help attendees answer"/>
+                    </page>
+                </page>
+
+
             </field>
         </record>
     </data>
