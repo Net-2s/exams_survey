@@ -42,9 +42,12 @@
     <template id="question_container_inherit" inherit_id="survey.question_container" name="Survey: question container">
 
         <!-- Description plus visible -->
-        <!-- <xpath expr="//div[@t-field='question.description']" position="attributes">
-            <attribute name="class">p-1 fs-5 oe_no_empty mt-1 text-break</attribute>
-        </xpath> -->
+        <xpath expr="//div[@t-field='question.description']" position="after">
+            <t t-if="(question.question_type == 'text_box' or  question.question_type == 'char_box') and question.copy_text">
+                <div t-field="question.copy_text" class="fs-italic oe_no_empty mt-1 text-break"></div>
+            </t>
+
+        </xpath>
 
         <h3 t-if="not hide_question_title" position="before">
             <div t-if="not is_html_empty(question.preambule)" t-field='question.preambule' class="p-1 fs-5 oe_no_empty mt-1 text-break"/>

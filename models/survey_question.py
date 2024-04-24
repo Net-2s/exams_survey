@@ -9,6 +9,8 @@ class SurveyQuestion(models.Model):
     preambule = fields.Html("Text Préambule")
     question_image = fields.Image('Image', max_width=1024, max_height=1024)
     question_image_filename = fields.Char('Image Filename')
+    is_recopy_execise = fields.Boolean("Est un exercice de recopie ?")
+    copy_text = fields.Text("Text à recopier")
      
     question_audios = fields.Many2many(
         comodel_name='ir.attachment',
@@ -17,3 +19,5 @@ class SurveyQuestion(models.Model):
         column2='attachment_id',
         string='Audios'
     )
+
+    
