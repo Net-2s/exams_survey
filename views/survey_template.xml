@@ -34,7 +34,7 @@
         </xpath>
         <xpath expr="div[hasclass('o_survey_start')]/div" position="before">
             <div>
-                <img src="static/img/test.png" style="width: 100%; height: auto" />
+                <!-- <img src="static/img/test.png" style="width: 100%; height: auto" /> -->
             </div>
         </xpath>
     </template>
