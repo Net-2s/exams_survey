@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="registration_folder_details_form_view_inherit" model="ir.ui.view">
+        <field name="name">edof.registration.folder.view.form</field>
+        <field name="model">edof.registration.folder</field>
+        <field name="inherit_id" ref="edof_data.registration_folder_details_form_view" />
+        <field name="arch" type="xml">
+            <xpath expr="//button[@name='action_view_invoice']" position="before">
+                <field name="entry_tests" invisible="1" />
+                <button name="open_test_result" string="Test d'entrée"  class="oe_stat_button" type="object" icon="fa-tags"
+                        attrs="{'invisible': [('entry_tests', '=', False)]}" />
+            </xpath>
+        </field>
+    </record>
+
+</odoo>

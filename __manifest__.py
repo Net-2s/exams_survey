@@ -24,6 +24,8 @@
         'views/survey_template.xml',
         'views/survey_test_template_view.xml',
         'views/crm_lead_form_view.xml',
+        'views/dossier_view.xml',
+        'views/registration_folder_view.xml',
         'views/survey_user_view.xml',
         'data/specification_survey_sheet.xml',
         'data/section_one.xml',

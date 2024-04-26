@@ -27,6 +27,8 @@ class CrmLeadInherit(models.Model):
         related='prospect_test.scoring_total'
         )
 
+    folder_number = fields.Char(
+        string='Numéro de dossier', copy=False, tracking=True)
 
     def launch_folder_test(self):
         self.ensure_one()

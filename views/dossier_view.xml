@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="rdossier_form_view_inherit" model="ir.ui.view">
+        <field name="name">gestion.formation.dossier.view.form</field>
+        <field name="model">gestion.formation.dossier</field>
+        <field name="inherit_id" ref="gestion_formation.dossier_form_view" />
+        <field name="arch" type="xml">
+            <xpath expr="//button[@name='action_view_invoice']" position="before">
+                <field name="entry_tests" invisible="1" />
+                <button name="open_test_result" string="Test d'entrée"  class="oe_stat_button" type="object" icon="fa-tags"
+                        attrs="{'invisible': [('entry_tests', '=', False)]}" />
+            </xpath>
+        </field>
+    </record>
+
+</odoo>

@@ -16,6 +16,10 @@
                     <button name="launch_folder_test" string="Test d'entrée" 
                         type="object" class="oe_highlight" />
                 </button>
+
+                <xpath expr="//field[@name='user_id']" position="after">
+                        <field name="folder_number" />
+                </xpath>
                 <xpath expr="//field[@name='training_duration']" position="before">
                         <field name="exam_to_pass" />
                         <!-- <field name="recommanded_hours" />
