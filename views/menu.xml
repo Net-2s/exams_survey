@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="survey.menu_surveys" model="ir.ui.menu">
+        <!-- <attribute name="name" value="">Test d'entrée</attribute> -->
+        <field name="name">Test d'entrée</field>
+    </record>
+
+    <record id="survey.action_survey_form" model="ir.actions.act_window">
+        <field name="name">Test d'entrée</field>
+    </record>
+
+</odoo>
