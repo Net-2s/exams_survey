@@ -19,6 +19,7 @@
 
     # setting data files
     'data': [
+        'views/menu.xml',
         'views/survey_question.xml',
         'views/survey_survey_views.xml',
         'views/survey_template.xml',
