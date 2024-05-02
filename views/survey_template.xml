@@ -114,6 +114,15 @@
             </xpath>
         
     </template>
+
+    <template id="question_suggested_value_image_inherit" inherit_id="survey.question_suggested_value_image">
+        <xpath expr="//t[@t-if='label.value_image']/div[1]" position="attributes">
+            <attribute name="class">d-flex my-3 justify-content-center</attribute>
+        </xpath>
+        <xpath expr="//t[@t-if='label.value_image']/div[2]" position="attributes">
+            <attribute name="class">d-flex my-3 justify-content-center</attribute>
+        </xpath>
+    </template>
     
     </data>
     
