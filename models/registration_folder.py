@@ -6,24 +6,7 @@ from odoo.osv import expression
 class RegistrationFolder(models.Model):
     _inherit = 'edof.registration.folder'
 
-    entry_tests = fields.Many2one('survey.user_input')
-
-    @api.model
-    def create(self, vals):
-        folders = super().create(vals)
-
-        for folder in folders:
-            crm_lead = self.env['crm.lead'].sudo().search([
-                '|',
-                    ('folder_number','=',folder.folder_number),
-                    ('phone','=',folder.phone),
-            ], limit=1)
-            if crm_lead and crm_lead.prospect_test:
-                folder.sudo().write({
-                    'entry_tests': crm_lead.prospect_test
-                })
-                
-        return folders
+    entry_tests = fields.Many2one('survey.user_input',related='crm_id.prospect_test')
 
     def open_test_result(self):
         self.ensure_one()

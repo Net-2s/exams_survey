@@ -15,7 +15,7 @@
     'application': True,
 
     # odoo dependencies
-    'depends': ['base', 'survey', 'polyx_lead'],
+    'depends': ['base', 'survey', 'polyx_lead','gestion_formation','edof_data'],
 
     # setting data files
     'data': [
