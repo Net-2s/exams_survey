@@ -39,7 +39,7 @@ class CrmLeadInherit(models.Model):
         return {
             'type': 'ir.actions.act_url',
             'name': "Test Survey",
-            'target': 'new',
+            'target': 'self',
             'url': '/survey/start/%s?%s' % (self.exam_to_pass.access_token, keep_query('*', answer_token=self.prospect_test.access_token)),
         }
     
